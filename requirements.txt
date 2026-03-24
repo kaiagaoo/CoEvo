@@ -1,0 +1,14 @@
+openai>=1.0
+python-dotenv
+datasets
+numpy
+scipy
+scikit-learn
+spacy
+textstat
+textblob
+sentence-transformers
+matplotlib
+seaborn
+pandas
+nltk
