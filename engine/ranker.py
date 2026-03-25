@@ -1,26 +1,18 @@
-import json
 import logging
-import os
 import re
-import tempfile
-import time
 from collections import defaultdict
 
 import numpy as np
-from openai import OpenAI
 from scipy.stats import kendalltau
 
+from api_client import submit_batch
 from config import (
-    BATCH_POLL_INTERVAL,
     ENGINE_MODEL,
     MIN_VALID_RANDOMIZATIONS,
     N_RANDOMIZATIONS,
-    OPENAI_API_KEY,
 )
 
 logger = logging.getLogger(__name__)
-
-client = OpenAI(api_key=OPENAI_API_KEY)
 
 
 def get_domain_type(domain: str) -> str:
@@ -163,7 +155,7 @@ def rank_documents_batch(
             }
 
     # Submit batch
-    results = _submit_and_wait_batch(batch_requests, f"rank_{domain}_round{round_num}")
+    results = submit_batch(batch_requests, f"rank_{domain}_round{round_num}")
 
     # Parse results and compute average ranks
     query_ranks = defaultdict(lambda: defaultdict(list))
@@ -302,7 +294,7 @@ def rank_documents_batch_with_stability(
                 "n_docs": n_docs,
             }
 
-    results = _submit_and_wait_batch(batch_requests, f"rank_{domain}_round{round_num}")
+    results = submit_batch(batch_requests, f"rank_{domain}_round{round_num}")
 
     # Parse results
     # per_query_per_rand: query_id -> rand_idx -> {doc_id: rank}
@@ -354,74 +346,3 @@ def rank_documents_batch_with_stability(
     return avg_ranks, per_query_rand_list
 
 
-def _submit_and_wait_batch(batch_requests: list, tag: str) -> dict:
-    """Submit batch requests to OpenAI Batch API and wait for completion.
-
-    Returns dict mapping custom_id -> response body.
-    """
-    if not batch_requests:
-        return {}
-
-    # Write JSONL to temp file
-    with tempfile.NamedTemporaryFile(
-        mode="w", suffix=".jsonl", delete=False, prefix=f"aice_{tag}_"
-    ) as f:
-        for req in batch_requests:
-            f.write(json.dumps(req) + "\n")
-        jsonl_path = f.name
-
-    logger.info(f"[{tag}] Submitting batch with {len(batch_requests)} requests...")
-
-    try:
-        # Upload file
-        with open(jsonl_path, "rb") as f:
-            file_obj = client.files.create(file=f, purpose="batch")
-
-        # Create batch
-        batch = client.batches.create(
-            input_file_id=file_obj.id,
-            endpoint="/v1/chat/completions",
-            completion_window="24h",
-            metadata={"tag": tag},
-        )
-
-        logger.info(f"[{tag}] Batch created: {batch.id}")
-
-        # Poll for completion
-        while True:
-            batch = client.batches.retrieve(batch.id)
-            status = batch.status
-            logger.info(f"[{tag}] Batch status: {status} "
-                        f"(completed: {batch.request_counts.completed}/"
-                        f"{batch.request_counts.total})")
-
-            if status == "completed":
-                break
-            elif status in ("failed", "expired", "cancelled"):
-                logger.error(f"[{tag}] Batch {status}. Errors: {batch.errors}")
-                return {}
-
-            time.sleep(BATCH_POLL_INTERVAL)
-
-        # Download results
-        if batch.output_file_id is None:
-            logger.error(f"[{tag}] No output file")
-            return {}
-
-        output_content = client.files.content(batch.output_file_id).text
-        results = {}
-        for line in output_content.strip().split("\n"):
-            if not line.strip():
-                continue
-            obj = json.loads(line)
-            custom_id = obj.get("custom_id")
-            response = obj.get("response", {})
-            body = response.get("body", {})
-            if custom_id and body:
-                results[custom_id] = body
-
-        logger.info(f"[{tag}] Got {len(results)} results")
-        return results
-
-    finally:
-        os.unlink(jsonl_path)

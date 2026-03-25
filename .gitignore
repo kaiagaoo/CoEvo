@@ -12,8 +12,9 @@ dist/
 build/
 *.egg
 
-# Results and data
-results/
+# Results - track JSON metrics, ignore large doc snapshots and plots
+results/*_docs.json
+results/*.pdf
 
 # IDE
 .idea/
@@ -34,3 +35,4 @@ aice_*.jsonl
 
 # claude
 .claude
+CLAUDE.md

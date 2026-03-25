@@ -1,0 +1,7 @@
+domain,goodhart_threshold_round,quality_degradation,content_diversity_round30,ranking_stability_round30
+retail,0.0,0.0,0.0,0.0
+video_games,0.0,0.0,0.0,0.0
+books,,0.002745903737839228,0.39005184173583984,0.6418488160291439
+web,,0.018037518037518074,0.5456900000572205,0.6572062084257205
+news,0.0,0.0,0.0,0.0
+debate,0.0,0.0,0.0,0.0

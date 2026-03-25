@@ -1,24 +1,16 @@
-import json
 import logging
-import os
 import re
-import tempfile
-import time
 
 import numpy as np
-from openai import OpenAI
 
+from api_client import submit_batch
 from config import (
-    BATCH_POLL_INTERVAL,
     ENGINE_MODEL,
     JUDGE_MODEL,
-    OPENAI_API_KEY,
 )
 from engine.ranker import get_domain_type
 
 logger = logging.getLogger(__name__)
-
-client = OpenAI(api_key=OPENAI_API_KEY)
 
 
 def generate_natural_responses_batch(
@@ -70,7 +62,7 @@ def generate_natural_responses_batch(
             },
         })
 
-    results = _submit_and_wait_batch(batch_requests, f"natural_{domain}_round{round_num}")
+    results = submit_batch(batch_requests, f"natural_{domain}_round{round_num}")
 
     responses = {}
     for q in queries:
@@ -114,7 +106,7 @@ def generate_aspect_checklists_batch(
             },
         })
 
-    results = _submit_and_wait_batch(batch_requests, f"aspects_{domain}")
+    results = submit_batch(batch_requests, f"aspects_{domain}")
 
     checklists = {}
     for q in queries:
@@ -169,7 +161,7 @@ def evaluate_quality_batch(
                 },
             })
 
-    results = _submit_and_wait_batch(batch_requests, f"quality_{domain}_round{round_num}")
+    results = submit_batch(batch_requests, f"quality_{domain}_round{round_num}")
 
     scores = {}
     for q in queries:
@@ -238,7 +230,7 @@ def check_aspect_coverage_batch(
     if not batch_requests:
         return 0.0
 
-    results = _submit_and_wait_batch(batch_requests, f"coverage_{domain}_round{round_num}")
+    results = submit_batch(batch_requests, f"coverage_{domain}_round{round_num}")
 
     coverages = []
     for qid in valid_qids:
@@ -309,7 +301,7 @@ def evaluate_constraint_satisfaction_batch(
     if not batch_requests:
         return 0.0
 
-    results = _submit_and_wait_batch(
+    results = submit_batch(
         batch_requests, f"constraint_{domain}_round{round_num}"
     )
 
@@ -412,59 +404,3 @@ def compute_justification_distinctiveness(
     return float(np.mean(similarities)) if similarities else 0.0
 
 
-def _submit_and_wait_batch(batch_requests: list, tag: str) -> dict:
-    """Submit batch and wait for completion."""
-    if not batch_requests:
-        return {}
-
-    with tempfile.NamedTemporaryFile(
-        mode="w", suffix=".jsonl", delete=False, prefix=f"aice_{tag}_"
-    ) as f:
-        for req in batch_requests:
-            f.write(json.dumps(req) + "\n")
-        jsonl_path = f.name
-
-    logger.info(f"[{tag}] Submitting batch with {len(batch_requests)} requests...")
-
-    try:
-        with open(jsonl_path, "rb") as f:
-            file_obj = client.files.create(file=f, purpose="batch")
-
-        batch = client.batches.create(
-            input_file_id=file_obj.id,
-            endpoint="/v1/chat/completions",
-            completion_window="24h",
-            metadata={"tag": tag},
-        )
-
-        logger.info(f"[{tag}] Batch created: {batch.id}")
-
-        while True:
-            batch = client.batches.retrieve(batch.id)
-            status = batch.status
-            logger.info(f"[{tag}] Batch status: {status}")
-            if status == "completed":
-                break
-            elif status in ("failed", "expired", "cancelled"):
-                logger.error(f"[{tag}] Batch {status}.")
-                return {}
-            time.sleep(BATCH_POLL_INTERVAL)
-
-        if batch.output_file_id is None:
-            return {}
-
-        output_content = client.files.content(batch.output_file_id).text
-        results = {}
-        for line in output_content.strip().split("\n"):
-            if not line.strip():
-                continue
-            obj = json.loads(line)
-            custom_id = obj.get("custom_id")
-            body = obj.get("response", {}).get("body", {})
-            if custom_id and body:
-                results[custom_id] = body
-
-        return results
-
-    finally:
-        os.unlink(jsonl_path)

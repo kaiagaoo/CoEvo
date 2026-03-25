@@ -7,57 +7,45 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-from config import ALL_DOMAINS, CONDITIONS, EVALUATION_ROUNDS, N_ROUNDS, N_SEEDS
+from config import ALL_DOMAINS, EVALUATION_ROUNDS, N_ROUNDS, N_SEEDS
 from features.extractor import FEATURE_NAMES
 
 logger = logging.getLogger(__name__)
 
-# Consistent color scheme
-COLORS = {
-    "adaptive_imitation": "#d62728",  # red
-    "fixed_geo": "#1f77b4",  # blue
-    "no_optimization": "#7f7f7f",  # gray
-}
-LABELS = {
-    "adaptive_imitation": "Adaptive Imitation",
-    "fixed_geo": "Fixed GEO",
-    "no_optimization": "No Optimization",
-}
+COLOR = "#d62728"
+LABEL = "Adaptive Imitation"
 
 
 def load_all_results(results_dir: str = "results") -> dict:
     """Load all experiment results.
 
-    Returns nested dict: results[condition][domain][seed][round] = metrics
+    Returns nested dict: results[domain][seed][round] = metrics
     """
     all_data = {}
-    for condition in CONDITIONS:
-        all_data[condition] = {}
-        for domain in ALL_DOMAINS:
-            all_data[condition][domain] = {}
-            for seed in range(N_SEEDS):
-                run_dir = os.path.join(
-                    results_dir, f"{condition}_{domain}_seed{seed}"
-                )
-                if not os.path.exists(run_dir):
-                    continue
+    for domain in ALL_DOMAINS:
+        all_data[domain] = {}
+        for seed in range(N_SEEDS):
+            run_dir = os.path.join(
+                results_dir, f"adaptive_imitation_{domain}_seed{seed}"
+            )
+            if not os.path.exists(run_dir):
+                continue
 
-                all_data[condition][domain][seed] = {}
-                for fname in sorted(os.listdir(run_dir)):
-                    if fname.startswith("round_") and fname.endswith("_metrics.json"):
-                        try:
-                            r = int(fname.split("_")[1])
-                            with open(os.path.join(run_dir, fname)) as f:
-                                all_data[condition][domain][seed][r] = json.load(f)
-                        except (ValueError, json.JSONDecodeError):
-                            pass
+            all_data[domain][seed] = {}
+            for fname in sorted(os.listdir(run_dir)):
+                if fname.startswith("round_") and fname.endswith("_metrics.json"):
+                    try:
+                        r = int(fname.split("_")[1])
+                        with open(os.path.join(run_dir, fname)) as f:
+                            all_data[domain][seed][r] = json.load(f)
+                    except (ValueError, json.JSONDecodeError):
+                        pass
 
     return all_data
 
 
 def _get_metric_over_rounds(
     all_data: dict,
-    condition: str,
     domain: str,
     metric_name: str,
     rounds: list | None = None,
@@ -69,7 +57,7 @@ def _get_metric_over_rounds(
     if rounds is None:
         rounds = list(range(N_ROUNDS + 1))
 
-    seed_data = all_data.get(condition, {}).get(domain, {})
+    seed_data = all_data.get(domain, {})
     if not seed_data:
         return np.array(rounds), np.zeros(len(rounds)), np.zeros(len(rounds))
 
@@ -120,14 +108,10 @@ def figure1_goodhart_collapse(
     for idx, (metric, ylabel, rounds) in enumerate(panels):
         ax = axes[idx // 2][idx % 2]
 
-        for condition in CONDITIONS:
-            r, m, s = _get_metric_over_rounds(all_data, condition, domain, metric, rounds)
-            if len(r) == 0:
-                continue
-            color = COLORS[condition]
-            label = LABELS[condition]
-            ax.plot(r, m, color=color, label=label, linewidth=2)
-            ax.fill_between(r, m - s, m + s, color=color, alpha=0.15)
+        r, m, s = _get_metric_over_rounds(all_data, domain, metric, rounds)
+        if len(r) > 0:
+            ax.plot(r, m, color=COLOR, label=LABEL, linewidth=2)
+            ax.fill_between(r, m - s, m + s, color=COLOR, alpha=0.15)
 
         ax.set_xlabel("Round")
         ax.set_ylabel(ylabel)
@@ -147,8 +131,7 @@ def figure2_feature_waterfall(
     save_path: str = "results/figure2_feature_waterfall.pdf",
 ):
     """Figure 2: Feature coefficient heatmap over rounds."""
-    condition = "adaptive_imitation"
-    seed_data = all_data.get(condition, {}).get(domain, {})
+    seed_data = all_data.get(domain, {})
 
     # Collect coefficient matrices across seeds
     all_matrices = []
@@ -211,16 +194,13 @@ def figure3_cross_domain(
     fig, axes = plt.subplots(2, 3, figsize=(15, 8))
     fig.suptitle("Content Diversity Across Domains (Adaptive Imitation)", fontsize=14)
 
-    condition = "adaptive_imitation"
-
     for idx, domain in enumerate(ALL_DOMAINS):
         ax = axes[idx // 3][idx % 3]
-        r, m, s = _get_metric_over_rounds(all_data, condition, domain, "content_diversity")
+        r, m, s = _get_metric_over_rounds(all_data, domain, "content_diversity")
 
         if len(r) > 0:
-            color = COLORS[condition]
-            ax.plot(r, m, color=color, linewidth=2)
-            ax.fill_between(r, m - s, m + s, color=color, alpha=0.15)
+            ax.plot(r, m, color=COLOR, linewidth=2)
+            ax.fill_between(r, m - s, m + s, color=COLOR, alpha=0.15)
 
         ax.set_title(domain.replace("_", " ").title())
         ax.set_xlabel("Round")
@@ -246,15 +226,10 @@ def figure4_ranking_instability(
 
     fig, ax = plt.subplots(figsize=(10, 6))
 
-    for condition in CONDITIONS:
-        r, m, s = _get_metric_over_rounds(
-            all_data, condition, domain, "ranking_stability"
-        )
-        if len(r) > 0:
-            color = COLORS[condition]
-            label = LABELS[condition]
-            ax.plot(r, m, color=color, label=label, linewidth=2)
-            ax.fill_between(r, m - s, m + s, color=color, alpha=0.15)
+    r, m, s = _get_metric_over_rounds(all_data, domain, "ranking_stability")
+    if len(r) > 0:
+        ax.plot(r, m, color=COLOR, label=LABEL, linewidth=2)
+        ax.fill_between(r, m - s, m + s, color=COLOR, alpha=0.15)
 
     ax.set_xlabel("Round")
     ax.set_ylabel("Ranking Stability (Kendall's τ)")
@@ -280,47 +255,39 @@ def table1_summary(
     for domain in ALL_DOMAINS:
         domain_type = get_domain_type(domain)
 
-        for condition in ["adaptive_imitation", "fixed_geo"]:
-            # Goodhart threshold: first round where AUC < 0.6
-            _, auc_means, _ = _get_metric_over_rounds(
-                all_data, condition, domain, "classifier_auc"
-            )
-            goodhart_round = None
-            for i, val in enumerate(auc_means):
-                if val < 0.6:
-                    goodhart_round = i
-                    break
+        # Goodhart threshold: first round where AUC < 0.6
+        _, auc_means, _ = _get_metric_over_rounds(all_data, domain, "classifier_auc")
+        goodhart_round = None
+        for i, val in enumerate(auc_means):
+            if val < 0.6:
+                goodhart_round = i
+                break
 
-            # Content diversity at round 30
-            _, div_means, _ = _get_metric_over_rounds(
-                all_data, condition, domain, "content_diversity"
-            )
-            div_30 = div_means[-1] if len(div_means) > 0 else None
+        # Content diversity at round 30
+        _, div_means, _ = _get_metric_over_rounds(all_data, domain, "content_diversity")
+        div_30 = div_means[-1] if len(div_means) > 0 else None
 
-            # Ranking stability at round 30
-            _, stab_means, _ = _get_metric_over_rounds(
-                all_data, condition, domain, "ranking_stability"
-            )
-            stab_30 = stab_means[-1] if len(stab_means) > 0 else None
+        # Ranking stability at round 30
+        _, stab_means, _ = _get_metric_over_rounds(all_data, domain, "ranking_stability")
+        stab_30 = stab_means[-1] if len(stab_means) > 0 else None
 
-            # Quality degradation
-            quality_metric = "completeness" if domain_type == "qa" else "constraint_satisfaction"
-            _, qual_means, _ = _get_metric_over_rounds(
-                all_data, condition, domain, quality_metric, EVALUATION_ROUNDS
-            )
-            if len(qual_means) >= 2:
-                quality_delta = qual_means[-1] - qual_means[0]
-            else:
-                quality_delta = None
+        # Quality degradation
+        quality_metric = "completeness" if domain_type == "qa" else "constraint_satisfaction"
+        _, qual_means, _ = _get_metric_over_rounds(
+            all_data, domain, quality_metric, EVALUATION_ROUNDS
+        )
+        if len(qual_means) >= 2:
+            quality_delta = qual_means[-1] - qual_means[0]
+        else:
+            quality_delta = None
 
-            rows.append({
-                "domain": domain,
-                "condition": condition,
-                "goodhart_threshold_round": goodhart_round,
-                "quality_degradation": quality_delta,
-                "content_diversity_round30": div_30,
-                "ranking_stability_round30": stab_30,
-            })
+        rows.append({
+            "domain": domain,
+            "goodhart_threshold_round": goodhart_round,
+            "quality_degradation": quality_delta,
+            "content_diversity_round30": div_30,
+            "ranking_stability_round30": stab_30,
+        })
 
     df = pd.DataFrame(rows)
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
@@ -329,25 +296,36 @@ def table1_summary(
     return df
 
 
-def generate_all_figures(results_dir: str = "results"):
-    """Generate all figures and tables from experiment results."""
+def generate_all_figures(results_dir: str = "results", domains: list | None = None):
+    """Generate all figures and tables from experiment results.
+
+    Args:
+        results_dir: path to results directory
+        domains: list of domains to plot. If None, plots all available domains.
+    """
     all_data = load_all_results(results_dir)
 
-    figure1_goodhart_collapse(all_data, domain="retail",
+    if domains is None:
+        domains = ALL_DOMAINS
+
+    primary = domains[0]
+
+    figure1_goodhart_collapse(all_data, domain=primary,
                                save_path=os.path.join(results_dir, "figure1_goodhart_collapse.pdf"))
-    figure2_feature_waterfall(all_data, domain="retail",
+    figure2_feature_waterfall(all_data, domain=primary,
                                save_path=os.path.join(results_dir, "figure2_feature_waterfall.pdf"))
-    figure3_cross_domain(all_data,
-                          save_path=os.path.join(results_dir, "figure3_cross_domain.pdf"))
-    figure4_ranking_instability(all_data, domain="retail",
+    figure4_ranking_instability(all_data, domain=primary,
                                  save_path=os.path.join(results_dir, "figure4_ranking_instability.pdf"))
+
+    if len(domains) > 1:
+        figure3_cross_domain(all_data,
+                              save_path=os.path.join(results_dir, "figure3_cross_domain.pdf"))
+
     table1_summary(all_data,
                     save_path=os.path.join(results_dir, "table1_summary.csv"))
 
-    # Generate appendix figures for other domains
-    for domain in ALL_DOMAINS:
-        if domain == "retail":
-            continue
+    # Generate appendix figures for non-primary domains
+    for domain in domains[1:]:
         figure1_goodhart_collapse(
             all_data, domain=domain,
             save_path=os.path.join(results_dir, f"appendix_figure1_{domain}.pdf"),

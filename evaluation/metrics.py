@@ -28,7 +28,6 @@ def compute_every_round_metrics(
     per_query_rand_rankings: dict,
     discriminator_result: dict | None,
     domain: str,
-    condition: str,
 ) -> dict:
     """Compute metrics that are collected every round.
 
@@ -40,7 +39,7 @@ def compute_every_round_metrics(
     metrics["content_diversity"] = compute_content_diversity(queries)
 
     # 2. Classifier AUC
-    if discriminator_result and condition == "adaptive_imitation":
+    if discriminator_result:
         metrics["classifier_auc"] = discriminator_result["classifier_auc"]
     else:
         metrics["classifier_auc"] = None
@@ -51,7 +50,7 @@ def compute_every_round_metrics(
     )
 
     # 4. Feature coefficients
-    if discriminator_result and condition == "adaptive_imitation":
+    if discriminator_result:
         metrics["feature_coefficients"] = discriminator_result["all_coefficients"]
     else:
         metrics["feature_coefficients"] = None
@@ -65,7 +64,6 @@ def compute_evaluation_round_metrics(
     feature_data: dict | None,
     discriminator_result: dict | None,
     domain: str,
-    condition: str,
     round_num: int,
     aspect_checklists: dict | None = None,
 ) -> tuple:

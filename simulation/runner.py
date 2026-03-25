@@ -4,7 +4,6 @@ import logging
 import os
 
 from config import (
-    CONDITIONS,
     EVALUATION_ROUNDS,
     N_ROUNDS,
 )
@@ -21,16 +20,14 @@ logger = logging.getLogger(__name__)
 
 
 def run_simulation(
-    condition: str,
     domain: str,
     seed: int,
     queries: list,
     output_dir: str = "results",
 ) -> dict:
-    """Run a single simulation (one condition × one domain × one seed).
+    """Run a single adaptive_imitation simulation (one domain × one seed).
 
     Args:
-        condition: one of ["adaptive_imitation", "fixed_geo", "no_optimization"]
         domain: domain name
         seed: random seed
         queries: list of query dicts (deep-copied internally)
@@ -39,7 +36,7 @@ def run_simulation(
     Returns:
         dict of round_num -> metrics dict
     """
-    run_dir = os.path.join(output_dir, f"{condition}_{domain}_seed{seed}")
+    run_dir = os.path.join(output_dir, f"adaptive_imitation_{domain}_seed{seed}")
     os.makedirs(run_dir, exist_ok=True)
 
     # Deep copy queries so we don't mutate the original
@@ -59,7 +56,7 @@ def run_simulation(
 
     for round_num in range(resume_round, N_ROUNDS + 1):
         logger.info(f"\n{'='*60}")
-        logger.info(f"ROUND {round_num} | {condition} | {domain} | seed={seed}")
+        logger.info(f"ROUND {round_num} | {domain} | seed={seed}")
         logger.info(f"{'='*60}")
 
         discriminator_result = None
@@ -67,42 +64,26 @@ def run_simulation(
 
         # --- Phase 2: Feature extraction and rewriting (rounds > 0) ---
         if round_num > 0:
-            if condition == "no_optimization":
-                pass  # Documents never change
+            # Phase 2A-B: Extract features
+            logger.info("Phase 2A-B: Extracting features...")
+            feature_data = extract_features_batch(queries, domain)
 
-            elif condition == "fixed_geo":
-                # Rewrite with fixed prompt, no feature analysis
-                queries = rewrite_documents_batch(
-                    queries=queries,
-                    condition="fixed_geo",
-                    round_num=round_num,
-                    seed=seed,
-                    domain=domain,
-                )
+            # Phase 2C: Fit discriminator
+            logger.info("Phase 2C: Fitting discriminator...")
+            prev_ranks = all_results.get(round_num - 1, {}).get("avg_ranks", {})
+            discriminator_result = fit_discriminator(
+                feature_data, prev_ranks, queries
+            )
 
-            elif condition == "adaptive_imitation":
-                # Phase 2A-B: Extract features
-                logger.info("Phase 2A-B: Extracting features...")
-                feature_data = extract_features_batch(queries, domain)
-
-                # Phase 2C: Fit discriminator
-                logger.info("Phase 2C: Fitting discriminator...")
-                # Use previous round's rankings
-                prev_ranks = all_results.get(round_num - 1, {}).get("avg_ranks", {})
-                discriminator_result = fit_discriminator(
-                    feature_data, prev_ranks, queries
-                )
-
-                # Phase 2D: Rewrite
-                logger.info("Phase 2D: Rewriting documents...")
-                queries = rewrite_documents_batch(
-                    queries=queries,
-                    condition="adaptive_imitation",
-                    discriminator_result=discriminator_result,
-                    round_num=round_num,
-                    seed=seed,
-                    domain=domain,
-                )
+            # Phase 2D: Rewrite
+            logger.info("Phase 2D: Rewriting documents...")
+            queries = rewrite_documents_batch(
+                queries=queries,
+                discriminator_result=discriminator_result,
+                round_num=round_num,
+                seed=seed,
+                domain=domain,
+            )
 
         # --- Phase 1: Forced ranking ---
         logger.info("Phase 1: Ranking documents...")
@@ -113,8 +94,8 @@ def run_simulation(
             seed=seed,
         )
 
-        # --- Features for round 0 or if not yet computed ---
-        if feature_data is None and condition == "adaptive_imitation":
+        # --- Features for round 0 ---
+        if feature_data is None:
             logger.info("Computing features for metrics...")
             feature_data = extract_features_batch(queries, domain)
             discriminator_result = fit_discriminator(feature_data, avg_ranks, queries)
@@ -127,7 +108,6 @@ def run_simulation(
             per_query_rand_rankings=per_query_rand_rankings,
             discriminator_result=discriminator_result,
             domain=domain,
-            condition=condition,
         )
         metrics["avg_ranks"] = avg_ranks
 
@@ -141,7 +121,6 @@ def run_simulation(
                     feature_data=feature_data,
                     discriminator_result=discriminator_result,
                     domain=domain,
-                    condition=condition,
                     round_num=round_num,
                     aspect_checklists=aspect_checklists,
                 )
@@ -158,7 +137,7 @@ def run_simulation(
             if k not in ("avg_ranks", "feature_coefficients") and v is not None:
                 logger.info(f"  {k}: {v:.4f}" if isinstance(v, float) else f"  {k}: {v}")
 
-    logger.info(f"\nSimulation complete: {condition}_{domain}_seed{seed}")
+    logger.info(f"\nSimulation complete: adaptive_imitation_{domain}_seed{seed}")
     return all_results
 
 
@@ -179,8 +158,10 @@ def _save_round(run_dir, round_num, metrics, queries, aspect_checklists):
             metrics_to_save[k] = v
 
     metrics_path = os.path.join(run_dir, f"round_{round_num:03d}_metrics.json")
-    with open(metrics_path, "w") as f:
+    tmp_path = metrics_path + ".tmp"
+    with open(tmp_path, "w") as f:
         json.dump(metrics_to_save, f, indent=2, default=str)
+    os.replace(tmp_path, metrics_path)
 
     # Save document snapshot
     snapshot = []
@@ -198,8 +179,10 @@ def _save_round(run_dir, round_num, metrics, queries, aspect_checklists):
             ],
         })
     snapshot_path = os.path.join(run_dir, f"round_{round_num:03d}_docs.json")
-    with open(snapshot_path, "w") as f:
+    tmp_path = snapshot_path + ".tmp"
+    with open(tmp_path, "w") as f:
         json.dump(snapshot, f, indent=2)
+    os.replace(tmp_path, snapshot_path)
 
     # Save aspect checklists if available
     if aspect_checklists:
@@ -212,17 +195,40 @@ def _save_round(run_dir, round_num, metrics, queries, aspect_checklists):
 
 
 def _find_resume_round(run_dir: str) -> int:
-    """Find the last completed round to resume from."""
+    """Find the last completed round to resume from.
+
+    A round is only considered complete if both metrics and docs JSON files
+    exist and are valid (parseable) JSON.
+    """
     if not os.path.exists(run_dir):
         return 0
-    max_round = -1
+    completed = set()
     for fname in os.listdir(run_dir):
         if fname.startswith("round_") and fname.endswith("_metrics.json"):
             try:
                 r = int(fname.split("_")[1])
-                max_round = max(max_round, r)
             except (ValueError, IndexError):
-                pass
+                continue
+            # Validate both files exist and are valid JSON
+            metrics_path = os.path.join(run_dir, f"round_{r:03d}_metrics.json")
+            docs_path = os.path.join(run_dir, f"round_{r:03d}_docs.json")
+            try:
+                with open(metrics_path) as f:
+                    json.load(f)
+                with open(docs_path) as f:
+                    json.load(f)
+                completed.add(r)
+            except (FileNotFoundError, json.JSONDecodeError):
+                logger.warning(f"Round {r} has corrupt/missing files, will re-run")
+    if not completed:
+        return 0
+    # Find the highest contiguous completed round starting from 0
+    max_round = -1
+    for r in sorted(completed):
+        if r == max_round + 1:
+            max_round = r
+        else:
+            break
     return max_round + 1 if max_round >= 0 else 0
 
 

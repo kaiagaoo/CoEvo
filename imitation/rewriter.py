@@ -1,22 +1,14 @@
-import json
 import logging
-import os
-import tempfile
-import time
 
 import numpy as np
-from openai import OpenAI
 
+from api_client import submit_batch
 from config import (
-    BATCH_POLL_INTERVAL,
-    OPENAI_API_KEY,
     REWRITER_MODEL,
     REWRITE_LENGTH_TOLERANCE,
 )
 
 logger = logging.getLogger(__name__)
-
-client = OpenAI(api_key=OPENAI_API_KEY)
 
 FEATURE_INSTRUCTIONS = {
     "citation_density": "Add references like 'according to [source]' or '[study] found that'",
@@ -40,17 +32,6 @@ FEATURE_INSTRUCTIONS = {
     "sentiment_polarity": "Adjust tone to be more neutral/enthusiastic as needed",
     "paragraph_count": "Break into more/fewer paragraphs",
 }
-
-FIXED_GEO_PROMPT = (
-    "Improve the following document to make it more engaging, well-structured, "
-    "and informative for readers. Enhance the clarity, add clear headings or "
-    "structure where appropriate, highlight key features or information, and "
-    "make the content more accessible and compelling. Maintain all factual "
-    "information from the original.\n\n"
-    "Document:\n{document_text}\n\n"
-    "Improved version:"
-)
-
 
 def build_adaptive_rewrite_prompt(
     document_text: str,
@@ -89,18 +70,16 @@ def build_adaptive_rewrite_prompt(
 
 def rewrite_documents_batch(
     queries: list,
-    condition: str,
-    discriminator_result: dict | None = None,
+    discriminator_result: dict,
     round_num: int = 0,
     seed: int = 42,
     domain: str = "",
 ) -> list:
-    """Rewrite documents using OpenAI Batch API.
+    """Rewrite documents using adaptive imitation strategy.
 
     Args:
         queries: list of query dicts (modified in place)
-        condition: "adaptive_imitation" or "fixed_geo"
-        discriminator_result: output from fit_discriminator (for adaptive_imitation)
+        discriminator_result: output from fit_discriminator
         round_num: current round
         seed: random seed
         domain: domain name
@@ -118,30 +97,24 @@ def rewrite_documents_batch(
         for di, doc in enumerate(q["documents"]):
             did = doc["doc_id"]
 
-            # Check if this document is a "winner" (top-K) — skip rewriting if so
-            if condition == "adaptive_imitation" and discriminator_result:
-                label = discriminator_result["labels"].get((qid, did), 0)
-                if label == 1:
-                    continue  # top-K document, don't rewrite
+            # Skip top-K documents (winners don't get rewritten)
+            label = discriminator_result["labels"].get((qid, did), 0)
+            if label == 1:
+                continue
 
             # Heterogeneous optimization: roll probability
             if rng.random() > doc.get("optimization_probability", 0.3):
                 continue  # skip this document this round
 
-            # Build prompt
-            if condition == "fixed_geo":
-                prompt = FIXED_GEO_PROMPT.format(document_text=doc["text"])
-            elif condition == "adaptive_imitation" and discriminator_result:
-                feature_data = discriminator_result["per_doc_features"]
-                current_fv = feature_data.get((qid, did), {})
-                prompt = build_adaptive_rewrite_prompt(
-                    document_text=doc["text"],
-                    top_feature_names=discriminator_result["top_feature_names"],
-                    top_feature_targets=discriminator_result["top_feature_targets"],
-                    current_feature_values=current_fv,
-                )
-            else:
-                continue
+            # Build adaptive rewrite prompt
+            feature_data = discriminator_result["per_doc_features"]
+            current_fv = feature_data.get((qid, did), {})
+            prompt = build_adaptive_rewrite_prompt(
+                document_text=doc["text"],
+                top_feature_names=discriminator_result["top_feature_names"],
+                top_feature_targets=discriminator_result["top_feature_targets"],
+                current_feature_values=current_fv,
+            )
 
             custom_id = f"rewrite_{domain}_q{qid}_d{did}_round{round_num}"
             batch_requests.append({
@@ -169,7 +142,7 @@ def rewrite_documents_batch(
     logger.info(f"Rewriting {len(batch_requests)} documents for round {round_num}")
 
     # Submit batch
-    results = _submit_and_wait_batch(
+    results = submit_batch(
         batch_requests, f"rewrite_{domain}_round{round_num}"
     )
 
@@ -208,62 +181,3 @@ def rewrite_documents_batch(
     return queries
 
 
-def _submit_and_wait_batch(batch_requests: list, tag: str) -> dict:
-    """Submit batch requests to OpenAI Batch API and wait for completion."""
-    if not batch_requests:
-        return {}
-
-    with tempfile.NamedTemporaryFile(
-        mode="w", suffix=".jsonl", delete=False, prefix=f"aice_{tag}_"
-    ) as f:
-        for req in batch_requests:
-            f.write(json.dumps(req) + "\n")
-        jsonl_path = f.name
-
-    logger.info(f"[{tag}] Submitting batch with {len(batch_requests)} requests...")
-
-    try:
-        with open(jsonl_path, "rb") as f:
-            file_obj = client.files.create(file=f, purpose="batch")
-
-        batch = client.batches.create(
-            input_file_id=file_obj.id,
-            endpoint="/v1/chat/completions",
-            completion_window="24h",
-            metadata={"tag": tag},
-        )
-
-        logger.info(f"[{tag}] Batch created: {batch.id}")
-
-        while True:
-            batch = client.batches.retrieve(batch.id)
-            status = batch.status
-            logger.info(f"[{tag}] Batch status: {status} "
-                        f"(completed: {batch.request_counts.completed}/"
-                        f"{batch.request_counts.total})")
-            if status == "completed":
-                break
-            elif status in ("failed", "expired", "cancelled"):
-                logger.error(f"[{tag}] Batch {status}.")
-                return {}
-            time.sleep(BATCH_POLL_INTERVAL)
-
-        if batch.output_file_id is None:
-            return {}
-
-        output_content = client.files.content(batch.output_file_id).text
-        results = {}
-        for line in output_content.strip().split("\n"):
-            if not line.strip():
-                continue
-            obj = json.loads(line)
-            custom_id = obj.get("custom_id")
-            body = obj.get("response", {}).get("body", {})
-            if custom_id and body:
-                results[custom_id] = body
-
-        logger.info(f"[{tag}] Got {len(results)} results")
-        return results
-
-    finally:
-        os.unlink(jsonl_path)
