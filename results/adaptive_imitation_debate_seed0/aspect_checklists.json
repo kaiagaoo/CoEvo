@@ -1,0 +1,961 @@
+{
+  "0": [
+    "1.  **Public Health Benefits:** Discuss potential reductions in obesity, type 2 diabetes, heart disease, and dental cavities.",
+    "2.  **Economic Impacts:** Analyze effects on the beverage industry (sales, jobs, production), retailers, and potential healthcare cost savings.",
+    "3.  **Consumer Choice and Freedom:** Address arguments about individual liberty, personal responsibility, and the right to choose what to consume.",
+    "4.  **Effectiveness of Limits:** Examine evidence from places that have implemented similar policies (e.g., New York City soda ban) and their actual impact.",
+    "5.  **Equity and Disproportionate Impact:** Consider how limits might affect low-income communities or specific demographic groups.",
+    "6.  **Alternative Policy Approaches:** Explore other strategies to reduce sugary drink consumption, such as taxation, education campaigns, or reformulation incentives.",
+    "7.  **Implementation Challenges:** Discuss practical difficulties in enforcing such limits, defining \"sugary drinks,\" and potential loopholes.",
+    "8.  **Potential for Unintended Consequences:** Consider if limits might lead consumers to switch to other unhealthy options or purchase multiple smaller drinks."
+  ],
+  "1": [
+    "1.  **Recidivism Reduction:** How educational and vocational programs impact the likelihood of reoffending upon release.",
+    "2.  **Rehabilitation and Personal Development:** The role of these opportunities in fostering personal growth, self-esteem, and a sense of purpose.",
+    "3.  **Economic Benefits (Individual and Societal):** How these programs can lead to better employment prospects for ex-offenders and reduce reliance on social welfare.",
+    "4.  **Improved Prison Environment:** The potential for these programs to reduce idleness, improve inmate behavior, and create a more constructive atmosphere within correctional facilities.",
+    "5.  **Skill Acquisition and Employability:** The specific types of skills that can be taught and how they align with current labor market demands.",
+    "6.  **Cost-Effectiveness:** A discussion of the financial investment required versus the long-term savings from reduced crime and increased tax revenue.",
+    "7.  **Ethical and Moral Considerations:** The argument for providing opportunities as a matter of human dignity and societal responsibility.",
+    "8.  **Challenges and Implementation:** Obstacles to providing these programs effectively, such as funding, staffing, curriculum development, and inmate engagement."
+  ],
+  "2": [
+    "1.  **Definition and Purpose of Sanctions:** Clearly define what international sanctions are in this context and articulate their intended purpose as a tool for human rights protection (e.g., deterring violations, pressuring regimes, supporting victims).",
+    "2.  **Effectiveness and Evidence:** Discuss the historical effectiveness and limitations of sanctions in achieving human rights improvements, citing examples and relevant research or case studies.",
+    "3.  **Potential Negative Consequences:** Analyze the unintended negative impacts of sanctions, such as humanitarian crises, harm to civilian populations, economic disruption, and potential for circumvention by targeted regimes.",
+    "4.  **Legal and Ethical Justifications:** Explore the legal basis and ethical arguments for using sanctions as a tool for human rights, considering international law, state sovereignty, and the responsibility to protect.",
+    "5.  **Types and Design of Sanctions:** Differentiate between various types of sanctions (e.g., targeted vs. comprehensive, asset freezes, travel bans, arms embargoes) and discuss how their design can impact effectiveness and minimize harm.",
+    "6.  **Implementation and Enforcement Challenges:** Address the practical difficulties in implementing and enforcing international sanctions, including issues of consensus among states, monitoring, and accountability.",
+    "7.  **Alternative and Complementary Measures:** Consider whether sanctions are the most appropriate or only tool, and discuss alternative or complementary approaches to human rights protection (e.g., diplomacy, international criminal justice, humanitarian aid, capacity building).",
+    "8.  **Criteria for Imposition and Review:** Outline the criteria that should be used to determine when sanctions are appropriate, how they should be targeted, and the mechanisms for their regular review and potential lifting."
+  ],
+  "3": [
+    "1.  **Economic Benefits:** Discuss the potential for increased economic productivity, innovation, and a more skilled workforce resulting from universal free education.",
+    "2.  **Social Equity and Mobility:** Explore how free education can reduce socioeconomic disparities, provide opportunities for upward mobility, and foster a more just society.",
+    "3.  **Individual Development and Empowerment:** Highlight the personal benefits of education, such as critical thinking skills, informed citizenship, and greater personal fulfillment.",
+    "4.  **Funding Mechanisms and Sustainability:** Address the practical challenges of financing free education, including potential tax increases, reallocation of resources, and long-term sustainability models.",
+    "5.  **Quality and Access Considerations:** Examine how to ensure that \"free\" education maintains high quality standards and is accessible to all, regardless of location or background, and consider potential impacts on class sizes and resources.",
+    "6.  **Impact on Different Educational Levels:** Differentiate the arguments and implications for free primary, secondary, and higher education, as each has unique costs and societal impacts.",
+    "7.  **Potential Drawbacks and Criticisms:** Acknowledge arguments against free education, such as concerns about over-enrollment, decreased perceived value, or the burden on taxpayers.",
+    "8.  **Global Perspectives and International Comparisons:** Briefly touch upon how different countries approach educational funding and the outcomes they achieve."
+  ],
+  "4": [
+    "1.  **Arguments for Abolition:** Discuss the ethical, humanitarian, and existential risks associated with nuclear weapons, including the potential for catastrophic destruction, accidental use, and proliferation.",
+    "2.  **Arguments Against Abolition (Deterrence):** Explain the concept of nuclear deterrence and how some nations argue that possessing nuclear weapons is essential for national security and preventing large-scale conventional wars.",
+    "3.  **Verification and Enforcement Challenges:** Address the immense difficulties in verifying complete disarmament and ensuring that no country secretly retains or develops nuclear weapons.",
+    "4.  **The Role of International Treaties and Organizations:** Examine existing frameworks like the Treaty on the Non-Proliferation of Nuclear Weapons (NPT) and the Treaty on the Prohibition of Nuclear Weapons (TPNW), their successes, limitations, and the challenges of universal adherence.",
+    "5.  **Geopolitical Realities and Power Dynamics:** Consider how the current global political landscape, existing power imbalances, and regional security concerns influence countries' decisions regarding nuclear weapons.",
+    "6.  **The Path to Disarmament:** Explore potential steps and strategies for achieving disarmament, such as phased reductions, confidence-building measures, and addressing underlying security grievances.",
+    "7.  **Economic and Resource Implications:** Briefly touch upon the significant financial resources currently allocated to maintaining nuclear arsenals and how these could be redirected if disarmament were to occur.",
+    "8.  **The Risk of Conventional Warfare:** Analyze the counter-argument that abolishing nuclear weapons might increase the likelihood of large-scale conventional conflicts between major powers."
+  ],
+  "5": [
+    "1.  **Defining \"Legal Rights\":** Clarify what specific legal rights are being considered (e.g., property ownership, freedom of speech, right to life, right to sue, right to vote, protection from harm).",
+    "2.  **Sentience and Consciousness:** Discuss the current and potential future state of AI consciousness, sentience, and self-awareness, and how these relate to the philosophical basis for granting rights.",
+    "3.  **Personhood and Moral Agency:** Explore the criteria for personhood and moral agency, and whether AI can or could ever meet these criteria, considering concepts like intent, responsibility, and understanding of consequences.",
+    "4.  **Purpose and Function of AI:** Analyze the intended purpose of AI (tool vs. independent entity) and how this impacts the justification for granting rights, distinguishing between AI designed for specific tasks and hypothetical general AI.",
+    "5.  **Potential Benefits and Risks of Granting Rights:** Examine the potential positive outcomes (e.g., ethical treatment of advanced AI, fostering innovation) and negative consequences (e.g., legal complexities, potential for AI to exploit rights, displacement of human rights).",
+    "6.  **Accountability and Responsibility:** Address who would be held accountable for an AI's actions if it possessed rights, and how legal frameworks would handle liability and punishment.",
+    "7.  **Societal Impact and Human Values:** Consider the broader societal implications, including how granting rights to AI might alter human identity, social structures, and the definition of what it means to be human.",
+    "8.  **Practical and Legal Implementation Challenges:** Detail the immense practical and legal hurdles in defining, enforcing, and adjudicating rights for non-biological entities within existing legal systems."
+  ],
+  "6": [
+    "1.  **Definition of Reverse Discrimination:** Clearly define what \"reverse discrimination\" means, typically referring to policies or practices that favor members of historically disadvantaged groups, potentially disadvantaging members of historically dominant groups.",
+    "2.  **Legal Framework and Precedents:** Discuss relevant legal principles, constitutional rights (e.g., equal protection), and landmark court cases that have addressed affirmative action, preferential treatment, and discrimination claims in various jurisdictions.",
+    "3.  **Arguments for Allowing (or considering):** Present the rationale behind policies that might be labeled \"reverse discrimination,\" such as addressing historical injustices, promoting diversity and inclusion, and creating a more equitable society.",
+    "4.  **Arguments Against Allowing:** Outline the concerns and objections to \"reverse discrimination,\" focusing on principles of individual merit, fairness, potential for new forms of discrimination, and the idea that individuals should not be penalized for past societal wrongs.",
+    "5.  **Distinction between Affirmative Action and Reverse Discrimination:** Clarify the nuances and potential overlap between affirmative action (intended to remedy past discrimination and promote diversity) and what is often termed \"reverse discrimination\" (which can imply unfair preference).",
+    "6.  **Impact on Meritocracy and Individual Rights:** Analyze how such policies might affect the principle of meritocracy, where individuals are selected based on their abilities and qualifications, and the potential infringement on the rights of individuals who are not members of the favored group.",
+    "7.  **Societal Goals and Effectiveness:** Examine the intended societal outcomes of policies that could be seen as reverse discrimination, such as increased representation and reduced inequality, and critically assess their actual effectiveness in achieving these goals.",
+    "8.  **Alternative Approaches:** Explore alternative strategies for achieving diversity, equity, and inclusion that may not be perceived as \"reverse discrimination,\" such as targeted outreach, mentorship programs, and addressing systemic barriers."
+  ],
+  "7": [
+    "1.  **Environmental Benefits:** Discuss the reduction of greenhouse gas emissions, mitigation of climate change impacts (sea-level rise, extreme weather), and improvement of air quality.",
+    "2.  **Economic Opportunities:** Explore the growth of renewable energy sectors, job creation in green industries, and potential for energy independence and price stability.",
+    "3.  **Energy Security and Geopolitics:** Analyze how reduced reliance on fossil fuels can decrease vulnerability to supply disruptions, price volatility, and geopolitical leverage of fossil fuel-producing nations.",
+    "4.  **Technological Advancements:** Highlight the role of innovation in developing and deploying cleaner energy technologies, energy efficiency measures, and carbon capture solutions.",
+    "5.  **Social Equity and Just Transition:** Address the potential impacts on communities dependent on fossil fuel industries, the need for retraining and support, and ensuring equitable access to clean energy.",
+    "6.  **Economic Challenges and Costs:** Acknowledge the significant investment required for infrastructure changes, the potential for increased energy costs during transition, and the economic implications for fossil fuel-dependent economies.",
+    "7.  **Global Cooperation and Policy Frameworks:** Emphasize the necessity of international agreements, shared responsibilities, and coordinated policies to achieve global reduction targets.",
+    "8.  **Alternative Energy Sources and Infrastructure:** Detail the availability, scalability, and limitations of renewable energy sources (solar, wind, hydro, geothermal) and the infrastructure needed to support them."
+  ],
+  "8": [
+    "1.  **Animal Welfare and Ethical Considerations:** Discuss the inherent needs of exotic animals (habitat, diet, social structure, enrichment) and whether private ownership can adequately meet them, leading to potential suffering, stress, and health issues.",
+    "2.  **Public Safety Risks:** Address the potential dangers exotic animals pose to humans, including bites, scratches, disease transmission (zoonotic diseases), and the risk of escape and subsequent harm to the public or other animals.",
+    "3.  **Conservation and Biodiversity Impacts:** Examine how the exotic pet trade can contribute to the decline of wild populations through illegal poaching and unsustainable collection, and the potential ecological disruption if escaped animals become invasive species.",
+    "4.  **Legal and Regulatory Frameworks:** Explore the existing laws and regulations governing exotic animal ownership, including permits, licensing, enclosure requirements, and enforcement challenges, and the debate around their adequacy.",
+    "5.  **Owner Responsibility and Expertise:** Consider the significant knowledge, financial resources, and commitment required to properly care for exotic animals, and the potential for neglect or abandonment when owners are unprepared.",
+    "6.  **Veterinary Care and Accessibility:** Discuss the specialized veterinary knowledge and facilities needed for exotic animals, and the challenges in accessing appropriate and affordable care for owners.",
+    "7.  **Ethical Arguments for and Against Ownership:** Present the philosophical arguments on both sides, such as the right to own property versus the inherent rights of animals, and the concept of \"ownership\" versus stewardship.",
+    "8.  **Alternatives to Private Ownership:** Highlight other ways people can interact with and appreciate exotic animals, such as through accredited zoos, sanctuaries, wildlife rehabilitation centers, and responsible ecotourism."
+  ],
+  "9": [
+    "1.  **Arguments for lowering the voting age:** This would include points about increased civic engagement, representation for young people on issues affecting them, and the idea that 16-year-olds are already subject to adult responsibilities (like paying taxes, working).",
+    "2.  **Arguments against lowering the voting age:** This would cover concerns about maturity levels, susceptibility to influence, lack of life experience, and potential for lower voter turnout among this age group.",
+    "3.  **International comparisons:** Examining countries where the voting age is 16 or 17, and the outcomes or experiences of those implementations.",
+    "4.  **Cognitive and developmental readiness:** Discussing research on adolescent brain development and whether 16-year-olds possess the necessary cognitive abilities for informed voting decisions.",
+    "5.  **Impact on political discourse and policy:** How lowering the voting age might shift political priorities, campaign strategies, and the types of issues discussed.",
+    "6.  **Educational preparedness:** The role of civics education in preparing younger voters and whether current educational systems are adequate.",
+    "7.  **Potential for increased youth participation:** Analyzing the likelihood of 16 and 17-year-olds actually voting and the factors that might encourage or discourage their participation.",
+    "8.  **Historical context of voting age changes:** Briefly touching upon past debates and changes to the voting age in various countries to provide perspective."
+  ],
+  "10": [
+    "1.  **Arguments for special programs:** Discuss the benefits of diversity in tech, such as increased innovation, better problem-solving, wider market reach, and improved company culture.",
+    "2.  **Arguments against special programs:** Address potential concerns like reverse discrimination, meritocracy debates, and the effectiveness of targeted interventions.",
+    "3.  **Types of special programs:** Detail various approaches governments could take, including scholarships, grants for underrepresented founders, mentorship initiatives, targeted recruitment drives, and educational pipeline programs.",
+    "4.  **Potential challenges and unintended consequences:** Explore difficulties in implementation, such as defining diversity, measuring success, potential for backlash, and ensuring equitable outcomes.",
+    "5.  **Economic and social impact:** Analyze the broader effects on the economy (e.g., job creation, economic growth) and society (e.g., reducing inequality, fostering inclusion).",
+    "6.  **Examples of existing initiatives (and their outcomes):** Reference successful or unsuccessful government-backed diversity programs in tech or other industries, highlighting lessons learned.",
+    "7.  **Role of private sector collaboration:** Discuss how government programs can work in conjunction with or incentivize private companies to foster diversity.",
+    "8.  **Ethical considerations and fairness:** Examine the ethical justifications for and against government intervention, focusing on principles of fairness, equity, and opportunity."
+  ],
+  "11": [
+    "1.  **Economic Impacts:** Discuss potential effects on the labor market, wages, tax revenue, and government spending (e.g., social services, infrastructure).",
+    "2.  **Social Integration and Community Impact:** Explore how amnesty could affect social cohesion, cultural integration, and the strain on public services in communities.",
+    "3.  **Legal and Ethical Considerations:** Address the rule of law, fairness to those who immigrate legally, and humanitarian arguments for providing a pathway to legal status.",
+    "4.  **Security Concerns:** Examine potential implications for national security, border control, and the ability to track individuals within the country.",
+    "5.  **Incentives for Future Immigration:** Analyze whether granting amnesty would encourage further unauthorized immigration and the potential for creating a \"pull factor.\"",
+    "6.  **Practical Implementation Challenges:** Detail the logistical difficulties in verifying eligibility, processing applications, and the potential for fraud.",
+    "7.  **Impact on Existing Immigration Laws and Policies:** Consider how amnesty might influence the effectiveness and perception of current immigration regulations and future policy development.",
+    "8.  **Varying Definitions and Forms of Amnesty:** Clarify what \"amnesty\" entails, as it can range from full legalization to temporary protected status or a pathway to citizenship, and how these distinctions matter."
+  ],
+  "12": [
+    "1.  **Economic Benefits for Donor Countries:** Discuss how aid can stimulate demand for donor country exports, create jobs, and foster long-term trade relationships.",
+    "2.  **Moral and Ethical Imperatives:** Explore the ethical arguments for assisting those in need, based on principles of global justice, human rights, and shared humanity.",
+    "3.  **Global Stability and Security:** Explain how reducing poverty and inequality in developing nations can mitigate factors contributing to conflict, migration, and terrorism, thus enhancing global security.",
+    "4.  **Addressing Global Challenges:** Detail how aid can be crucial for tackling shared issues like climate change, pandemics, and humanitarian crises that transcend national borders.",
+    "5.  **Impact on Developing Countries:** Analyze the potential positive effects of aid on poverty reduction, healthcare, education, infrastructure development, and economic growth in recipient nations.",
+    "6.  **Potential Drawbacks and Criticisms of Aid:** Address common criticisms, such as aid dependency, corruption, ineffectiveness, and the potential for aid to distort local economies.",
+    "7.  **Alternative or Complementary Approaches:** Consider other ways wealthy countries can support developing nations beyond direct financial aid, such as fair trade policies, debt relief, technology transfer, and investment.",
+    "8.  **Measuring Effectiveness and Accountability:** Discuss the importance of robust monitoring, evaluation, and accountability mechanisms to ensure aid is used efficiently and achieves its intended outcomes."
+  ],
+  "13": [
+    "1.  **Arguments for increased subsidies:** This would include points about religious organizations' contributions to social welfare, community building, charitable work, and the preservation of cultural heritage.",
+    "2.  **Arguments against increased subsidies:** This would encompass concerns about the separation of church and state, potential for discrimination, fairness to non-religious organizations, and the use of public funds for religious proselytization.",
+    "3.  **Legal and constitutional considerations:** This would involve examining existing laws, constitutional principles (like the Establishment Clause and Free Exercise Clause in the US context), and precedents regarding government funding of religious entities.",
+    "4.  **Economic impact and accountability:** This would address how subsidies might affect the financial sustainability of religious organizations, the potential for misuse of funds, and the mechanisms for ensuring transparency and accountability.",
+    "5.  **Defining \"religious organizations\":** This aspect would explore the challenges in defining what constitutes a religious organization for the purpose of subsidy eligibility, including potential for abuse or inclusion of fringe groups.",
+    "6.  **Types of subsidies and their implications:** This would differentiate between direct financial aid, tax exemptions, grants for specific services (e.g., disaster relief, education), and the varying ethical and practical implications of each.",
+    "7.  **Societal impact and equity:** This would consider how increased subsidies might affect the broader societal landscape, including the perception of fairness, the potential for religious favoritism, and the impact on secular charities.",
+    "8.  **International comparisons (optional but valuable):** Briefly touching upon how other countries approach government support for religious organizations can provide context and alternative models."
+  ],
+  "14": [
+    "1.  **Definition and scope of \"non-violent offenses\":** Clarify what constitutes a non-violent offense, as this can vary and impact the discussion.",
+    "2.  **Current sentencing practices and their effectiveness:** Discuss existing prison sentences for non-violent offenders and evidence on their impact on recidivism and public safety.",
+    "3.  **Arguments for reduction:** Present the case for reducing sentences, including potential benefits like cost savings, reduced prison overcrowding, and focus on rehabilitation.",
+    "4.  **Arguments against reduction (or for caution):** Present counterarguments, such as concerns about public safety, deterrence, and the need for accountability for certain offenses.",
+    "5.  **Alternative sentencing options:** Explore and evaluate alternatives to incarceration for non-violent offenders, such as probation, community service, restorative justice, and diversion programs.",
+    "6.  **Impact on recidivism rates:** Analyze how sentence reductions or alternatives might affect the likelihood of reoffending.",
+    "7.  **Economic and social costs/benefits:** Discuss the financial implications of incarceration versus alternatives, as well as broader societal impacts like family stability and community well-being.",
+    "8.  **Evidence-based research and data:** Reference studies, statistics, and expert opinions that support or refute the effectiveness of different sentencing approaches for non-violent offenders."
+  ],
+  "15": [
+    "1.  **Legality and International Law:** Discuss the basis for sanctions in international law, including UN Security Council resolutions, customary international law, and the principle of state sovereignty.",
+    "2.  **Purpose and Objectives:** Explore the intended goals of economic sanctions, such as coercing a target state to change its behavior, deterring aggression, promoting human rights, or combating terrorism.",
+    "3.  **Effectiveness and Outcomes:** Analyze the actual impact of sanctions, considering their success in achieving stated objectives, unintended consequences (e.g., humanitarian impact on civilian populations), and potential for backfiring.",
+    "4.  **Ethical and Moral Considerations:** Examine the moral justifications for using sanctions, weighing the potential benefits against the harm inflicted on innocent populations and the ethical implications of economic warfare.",
+    "5.  **Sovereignty and Non-Intervention:** Address the tension between the right to impose sanctions and the principle of state sovereignty and non-interference in the internal affairs of other nations.",
+    "6.  **Alternatives to Sanctions:** Discuss other diplomatic, political, or military tools available to nations for addressing international disputes and consider when sanctions are the most appropriate or only viable option.",
+    "7.  **International Cooperation and Unilateralism:** Explore the role of multilateral versus unilateral sanctions, including the challenges of enforcement, legitimacy, and the potential for circumventing sanctions.",
+    "8.  **Economic and Political Ramifications:** Analyze the broader economic and political consequences of sanctions for both the imposing and targeted nations, including impacts on trade, investment, global markets, and geopolitical relationships."
+  ],
+  "16": [
+    "1.  **Economic Benefits:** Discuss potential job creation, technological spin-offs, and the growth of new industries.",
+    "2.  **Scientific Advancement:** Highlight the pursuit of knowledge, understanding the universe, and answering fundamental questions about life and our place in it.",
+    "3.  **Technological Innovation:** Detail how space exploration drives advancements in materials science, computing, medicine, and other fields with terrestrial applications.",
+    "4.  **National Security and Geopolitical Influence:** Explain how space capabilities contribute to defense, surveillance, and maintaining a nation's standing on the global stage.",
+    "5.  **Inspiration and Education:** Address the role of space exploration in inspiring future generations of scientists, engineers, and innovators, and its impact on STEM education.",
+    "6.  **Resource Potential and Future Survival:** Explore the long-term possibilities of asteroid mining, off-world resource utilization, and the potential for humanity's survival beyond Earth.",
+    "7.  **Opportunity Cost and Alternative Spending:** Acknowledge the debate about whether these funds could be better allocated to pressing domestic issues like healthcare, education, or infrastructure.",
+    "8.  **International Cooperation and Diplomacy:** Discuss how joint space missions can foster collaboration between nations and promote peaceful relations."
+  ],
+  "17": [
+    "1.  **Economic Impacts:** Discuss the potential economic benefits (e.g., labor force, innovation, consumer spending) and costs (e.g., strain on social services, infrastructure) associated with increased refugee and immigrant populations.",
+    "2.  **Humanitarian and Moral Obligations:** Explore the ethical arguments for providing aid, including international responsibilities, compassion, and the concept of asylum.",
+    "3.  **National Security and Border Control:** Address concerns about security, the vetting process for refugees and immigrants, and the implications for border management and national sovereignty.",
+    "4.  **Social Integration and Cultural Impact:** Examine the challenges and opportunities related to integrating new populations into American society, including cultural exchange, potential social tensions, and the preservation of national identity.",
+    "5.  **Resource Allocation and Capacity:** Consider the practicalities of providing more help, including the availability of resources (housing, healthcare, education, jobs) and the capacity of government agencies and non-profit organizations.",
+    "6.  **International Relations and Diplomacy:** Analyze how US policy on refugees and immigrants affects its relationships with other countries, its role in global humanitarian efforts, and its influence on international migration patterns.",
+    "7.  **Legal and Policy Frameworks:** Detail the existing legal structures governing immigration and refugee status in the US, and discuss potential policy changes or reforms that could facilitate or restrict increased aid.",
+    "8.  **Historical Precedents and Lessons Learned:** Draw upon historical examples of US immigration and refugee policies, examining their successes, failures, and the lessons that can be applied to current debates."
+  ],
+  "18": [
+    "1.  Economic impacts (tax revenue, job creation, reduced enforcement costs vs. increased healthcare costs, potential for addiction treatment funding).",
+    "2.  Public health implications (potential for reduced overdose deaths through regulation and safer supply, but also risks of increased addiction rates and associated health problems).",
+    "3.  Criminal justice reform (reduction in arrests and incarceration, focus on rehabilitation over punishment, impact on organized crime).",
+    "4.  Individual liberty and autonomy (the right of individuals to make choices about their own bodies and consciousness).",
+    "5.  Social equity and justice (disproportionate impact of current drug laws on marginalized communities, potential for legalization to address these disparities).",
+    "6.  Regulatory frameworks and control (how legalization would be implemented, including age restrictions, potency limits, licensing, and marketing regulations).",
+    "7.  International implications (impact on global drug trade, relations with countries that maintain prohibition).",
+    "8.  Potential for harm reduction strategies (how legalization could facilitate or hinder harm reduction efforts like needle exchange programs and supervised consumption sites)."
+  ],
+  "20": [
+    "1.  **Diagnosis and Disease Detection:** AI's ability to analyze medical images (X-rays, CT scans, MRIs), pathology slides, and patient data to identify diseases earlier and more accurately than human capabilities alone.",
+    "2.  **Personalized Treatment and Drug Discovery:** AI's role in tailoring treatment plans based on individual patient genetics, lifestyle, and response to therapies, as well as accelerating the identification and development of new drugs.",
+    "3.  **Administrative Efficiency and Workflow Optimization:** AI's potential to automate tasks like scheduling, billing, record-keeping, and managing patient flow, freeing up healthcare professionals for direct patient care.",
+    "4.  **Predictive Analytics and Population Health Management:** AI's use in forecasting disease outbreaks, identifying at-risk patient populations, and enabling proactive interventions to improve public health outcomes.",
+    "5.  **Robotics and Surgical Assistance:** The integration of AI-powered robots in surgery for enhanced precision, minimally invasive procedures, and remote surgical capabilities.",
+    "6.  **Patient Monitoring and Remote Care:** AI's application in wearable devices and remote monitoring systems to track patient vital signs, detect anomalies, and facilitate telehealth services, especially for chronic conditions.",
+    "7.  **Ethical Considerations and Bias Mitigation:** Addressing the crucial aspects of data privacy, security, algorithmic bias, accountability, and ensuring equitable access to AI-driven healthcare solutions.",
+    "8.  **Human-AI Collaboration and Augmentation:** Emphasizing that AI should augment, not replace, human healthcare professionals, fostering a collaborative environment where AI supports clinical decision-making and enhances human expertise."
+  ],
+  "22": [
+    "1.  **Health Benefits:** Discuss the positive impacts of healthier school meals on student physical and mental health, including reduced obesity rates, improved concentration, and better academic performance.",
+    "2.  **Nutritional Standards:** Detail what constitutes \"healthier meal options\" and the importance of meeting specific nutritional guidelines (e.g., limiting sugar, sodium, unhealthy fats; increasing fruits, vegetables, whole grains).",
+    "3.  **Cost and Funding:** Address the financial implications for schools, including the potential increased cost of healthier ingredients and the need for adequate government funding or subsidies.",
+    "4.  **Student Preferences and Acceptance:** Explore challenges related to student palatability and acceptance of healthier foods, and strategies for making nutritious meals appealing.",
+    "5.  **Impact on Food Industry and Agriculture:** Consider how increased demand for healthier options might influence food suppliers, local agriculture, and the broader food system.",
+    "6.  **Equity and Access:** Examine how mandatory healthier meals can address food insecurity and ensure all students, regardless of socioeconomic background, have access to nutritious food.",
+    "7.  **Educational Component:** Discuss the role of schools in educating students about healthy eating habits and the connection between diet and well-being.",
+    "8.  **Implementation Challenges and Solutions:** Outline practical difficulties in implementing such requirements (e.g., kitchen infrastructure, staff training) and potential solutions."
+  ],
+  "23": [
+    "1.  **Definition and Mechanics of Ranked Voting:** Explain what ranked voting (e.g., Instant Runoff Voting, Single Transferable Vote) is, how voters rank candidates, and how votes are counted and transferred.",
+    "2.  **Arguments for Ranked Voting (Pros):** Detail the benefits, such as reducing \"spoiler\" effects, encouraging broader appeal, promoting civility, ensuring winners have majority support, and potentially increasing voter turnout.",
+    "3.  **Arguments Against Ranked Voting (Cons):** Outline the drawbacks, including potential complexity for voters, possibility of \"exhausted ballots,\" concerns about strategic voting, and the risk of electing a less preferred candidate under certain circumstances.",
+    "4.  **Comparison to Plurality Voting:** Contrast ranked voting with the current \"first-past-the-post\" or plurality system, highlighting the key differences in outcomes and voter experience.",
+    "5.  **Real-World Examples and Case Studies:** Provide examples of jurisdictions that use or have used ranked voting systems, discussing their experiences, successes, and challenges.",
+    "6.  **Impact on Political Parties and Campaigning:** Analyze how ranked voting might change campaign strategies, the types of candidates who might succeed, and the dynamics between political parties.",
+    "7.  **Voter Education and Implementation Challenges:** Discuss the practicalities of implementing ranked voting, including the need for voter education and potential administrative hurdles.",
+    "8.  **Potential Effects on Representation and Diversity:** Explore whether ranked voting could lead to more diverse representation or better reflect the electorate's preferences."
+  ],
+  "24": [
+    "1.  **Safety and Accident Reduction:** Discuss the potential for driverless cars to reduce accidents caused by human error (distraction, fatigue, impairment) versus the risks associated with technological malfunctions or unforeseen scenarios.",
+    "2.  **Ethical Considerations and Decision-Making:** Address the \"trolley problem\" and how autonomous vehicles will be programmed to make life-or-death decisions in unavoidable accident situations.",
+    "3.  **Economic and Employment Impacts:** Analyze the potential job losses in industries like trucking, taxi services, and delivery, as well as the creation of new jobs in technology and maintenance.",
+    "4.  **Accessibility and Mobility:** Explore how driverless cars could improve transportation for the elderly, disabled, and those unable to drive, increasing independence and access to services.",
+    "5.  **Infrastructure and Regulatory Challenges:** Examine the need for updated road infrastructure (e.g., clear markings, smart traffic signals), cybersecurity measures, and the development of comprehensive legal frameworks and insurance models.",
+    "6.  **Public Perception and Trust:** Discuss the importance of building public confidence in the technology, addressing concerns about privacy, and the gradual adoption process.",
+    "7.  **Environmental Benefits/Drawbacks:** Consider the potential for optimized driving patterns to improve fuel efficiency and reduce emissions, or the possibility of increased vehicle miles traveled due to convenience.",
+    "8.  **Data Privacy and Security:** Address concerns about the vast amounts of data collected by driverless cars and the potential for misuse or breaches."
+  ],
+  "25": [
+    "1.  **Arguments for Abolishing State Governments:** This would cover points like increased efficiency, reduced bureaucracy, national uniformity in laws and services, and potential cost savings.",
+    "2.  **Arguments Against Abolishing State Governments:** This would include the benefits of federalism, states as laboratories of democracy, responsiveness to local needs and diversity, and checks and balances on federal power.",
+    "3.  **Historical Context and Evolution of State Governments:** Briefly touching on why states were established and how their roles have changed over time.",
+    "4.  **Potential Consequences of Abolition:** Exploring the practical implications for governance, service delivery (education, infrastructure, healthcare), and citizen representation.",
+    "5.  **Alternative Models of Governance:** Discussing possibilities like stronger local governments, regional authorities, or a more centralized federal system without distinct states.",
+    "6.  **Impact on Citizen Rights and Liberties:** Examining how the abolition of states might affect the protection and enforcement of individual rights.",
+    "7.  **Economic Implications:** Analyzing the potential effects on state economies, taxation, and inter-state commerce.",
+    "8.  **Feasibility and Practicality:** Assessing the immense political, legal, and logistical challenges involved in such a radical restructuring of government."
+  ],
+  "26": [
+    "1.  **Public Health Benefits:** Discuss potential improvements in public health outcomes, such as reduced rates of obesity, diabetes, heart disease, and other diet-related illnesses.",
+    "2.  **Economic Impact on Consumers:** Analyze how increased taxes would affect the affordability of junk food for different income groups, potentially leading to regressive impacts on low-income households.",
+    "3.  **Revenue Generation:** Detail the potential revenue that could be generated from increased taxes and how this revenue could be allocated (e.g., to public health initiatives, subsidies for healthy food, or general government spending).",
+    "4.  **Behavioral Change Effectiveness:** Evaluate the likelihood that higher taxes will actually lead consumers to reduce their consumption of junk food and shift towards healthier alternatives.",
+    "5.  **Industry Response and Economic Impact on Businesses:** Consider how the food industry, particularly manufacturers and retailers of junk food, might respond, including potential job losses, changes in product formulation, or shifts in sales.",
+    "6.  **Definition and Scope of \"Junk Food\":** Address the challenges and complexities in defining what constitutes \"junk food\" for taxation purposes, including potential loopholes and the difficulty of categorizing diverse food products.",
+    "7.  **Comparison with Other Public Health Interventions:** Place the idea of junk food taxes within the broader context of public health strategies, comparing its potential effectiveness and drawbacks to other interventions like education campaigns or subsidies for healthy foods.",
+    "8.  **Ethical Considerations and Personal Choice:** Explore the ethical arguments surrounding government intervention in individual dietary choices and the principle of personal liberty versus public health responsibility."
+  ],
+  "27": [
+    "1.  **Ethical considerations and animal welfare:** Discuss the moral implications of using animals for research, including their capacity for suffering, rights, and the ethical frameworks that govern their use.",
+    "2.  **Scientific necessity and benefits:** Detail the historical and ongoing contributions of animal testing to medical advancements, disease understanding, and the development of life-saving treatments and vaccines.",
+    "3.  **Availability and limitations of alternatives:** Explore the current state of alternative research methods (e.g., in vitro studies, computer modeling, organ-on-a-chip technology) and their effectiveness in replacing or reducing animal testing.",
+    "4.  **Regulatory frameworks and oversight:** Explain the laws, guidelines, and ethical review processes (e.g., IACUCs) that govern animal research, focusing on principles like the 3Rs (Replacement, Reduction, Refinement).",
+    "5.  **Species-specific differences and translatability:** Address the biological similarities and differences between animals and humans, and the challenges in extrapolating findings from animal models to human health.",
+    "6.  **Economic and societal impact:** Consider the costs associated with animal research, the economic benefits derived from medical breakthroughs, and the broader societal implications of both allowing and prohibiting animal testing.",
+    "7.  **Public opinion and societal values:** Acknowledge the diverse and often conflicting public views on animal testing and how these reflect evolving societal values regarding animal sentience and human health priorities.",
+    "8.  **Future directions and ongoing debates:** Discuss the trajectory of research, the push for further development and adoption of alternatives, and the ongoing ethical and scientific debates surrounding the future of animal testing."
+  ],
+  "28": [
+    "1.  **Parental Rights and Responsibilities:** The fundamental right of parents to guide their children's upbringing and education, balanced with their responsibility to ensure the child's well-being and development.",
+    "2.  **Child's Autonomy and Best Interests:** The evolving capacity of the child to have a voice in their education, considering their individual talents, interests, and developmental stage.",
+    "3.  **Types of Educational Paths:** Differentiating between broad choices (e.g., public vs. private, homeschooling) and specific curriculum or subject choices within a chosen path.",
+    "4.  **Societal and Educational Goals:** How parental choices align with or diverge from broader societal needs for educated citizens, workforce demands, and the goals of the educational system.",
+    "5.  **Potential Benefits of Parental Choice:** Advantages such as tailored education, alignment with family values, and fostering student engagement.",
+    "6.  **Potential Drawbacks and Risks of Parental Choice:** Disadvantages like limiting exposure to diverse perspectives, potential for inadequate or biased education, and exacerbating inequalities.",
+    "7.  **Legal and Ethical Frameworks:** Existing laws, regulations, and ethical considerations that govern parental rights in education and the state's role in ensuring educational standards.",
+    "8.  **The Role of Educators and Institutions:** How schools and teachers can collaborate with parents, provide guidance, and advocate for the child's educational needs when parental choices may be detrimental."
+  ],
+  "29": [
+    "1.  **Arguments for stricter regulation:** This would include points about reducing gun violence, mass shootings, accidental deaths, and suicides, as well as the potential for firearms to be used in crimes.",
+    "2.  **Arguments against stricter regulation:** This would encompass points related to Second Amendment rights, self-defense, the idea that criminals will always obtain weapons regardless of laws, and the potential for regulations to disarm law-abiding citizens.",
+    "3.  **Types of proposed regulations:** This could detail specific measures like universal background checks, bans on certain types of firearms (e.g., assault weapons), red flag laws, waiting periods, licensing requirements, and restrictions on magazine capacity.",
+    "4.  **Effectiveness of existing regulations:** An examination of data and studies on the impact of current gun laws in various jurisdictions, both domestically and internationally, to assess their success or failure in achieving stated goals.",
+    "5.  **Impact on different groups:** Consideration of how stricter regulations might disproportionately affect certain communities, including law-abiding gun owners, minority groups, and those living in high-crime areas.",
+    "6.  **Constitutional and legal considerations:** Discussion of the Second Amendment, relevant Supreme Court rulings (e.g., *Heller*, *Bruen*), and the legal challenges often associated with gun control legislation.",
+    "7.  **Societal and cultural factors:** Exploration of the role of culture, mental health, socioeconomic factors, and media in contributing to gun violence, and how these might interact with or be addressed by firearm regulations.",
+    "8.  **Economic implications:** An analysis of the potential economic impacts of stricter regulations, such as on the firearms industry, law enforcement costs, and healthcare costs associated with gun violence."
+  ],
+  "30": [
+    "1.  **Definition and Types of GMOs:** Clearly explain what GMOs are, how they are created, and the different types of modifications (e.g., herbicide tolerance, insect resistance, nutritional enhancement).",
+    "2.  **Potential Benefits:** Discuss the advantages of GMOs, such as increased crop yields, reduced pesticide use, improved nutritional content, and enhanced resilience to environmental stresses.",
+    "3.  **Potential Risks and Concerns:** Address the potential downsides, including environmental impacts (e.g., gene flow, impact on non-target organisms), human health concerns (e.g., allergies, long-term effects), and socioeconomic issues (e.g., corporate control, impact on small farmers).",
+    "4.  **Regulatory Frameworks and Safety Assessments:** Explain how GMOs are regulated and tested for safety in different countries, including the role of government agencies and scientific bodies.",
+    "5.  **Scientific Consensus and Evidence:** Present the prevailing scientific opinion on the safety of currently approved GMOs, citing relevant studies and expert organizations.",
+    "6.  **Ethical and Societal Considerations:** Explore the broader ethical debates surrounding GMOs, such as the \"naturalness\" of food, consumer choice, and the potential for unintended consequences.",
+    "7.  **Economic Impacts:** Analyze the economic implications for farmers, consumers, and the agricultural industry, including costs, market access, and potential for innovation.",
+    "8.  **Labeling and Consumer Information:** Discuss the arguments for and against mandatory labeling of GMOs, and the importance of providing consumers with accurate and accessible information."
+  ],
+  "31": [
+    "1. Environmental impact of single-use plastics (pollution, harm to wildlife, microplastics).",
+    "2. Economic implications of a ban (costs for businesses, job losses/creation, impact on consumers).",
+    "3. Availability and feasibility of alternatives (biodegradable, reusable, compostable options).",
+    "4. Public health considerations (potential risks of plastic alternatives, hygiene concerns).",
+    "5. Consumer behavior and societal adaptation (challenges and opportunities for change).",
+    "6. Regulatory approaches and enforcement mechanisms (different types of bans, effectiveness).",
+    "7. Global perspectives and international agreements on plastic reduction.",
+    "8. Long-term sustainability and circular economy principles."
+  ],
+  "32": [
+    "1.  **Ethical considerations and animal welfare:** Discuss the moral arguments against causing suffering to sentient beings, including pain, distress, and death.",
+    "2.  **Scientific necessity and efficacy:** Examine the arguments for animal testing, focusing on its historical role in medical advancements, understanding complex biological systems, and the lack of fully validated alternatives for certain research areas.",
+    "3.  **Availability and development of alternatives:** Detail the progress and limitations of non-animal testing methods (e.g., in vitro, in silico, organ-on-a-chip), and the ongoing efforts to refine and replace animal models.",
+    "4.  **Regulatory frameworks and oversight:** Explain the existing laws and guidelines governing animal testing (e.g., the 3Rs: Replacement, Reduction, Refinement) and how they aim to minimize harm.",
+    "5.  **Impact on human health and safety:** Discuss the benefits derived from animal testing for developing treatments, vaccines, and ensuring the safety of products, and the potential consequences of its complete cessation.",
+    "6.  **Economic implications:** Consider the costs associated with animal testing versus the development and implementation of alternative methods, as well as the economic impact on research institutions and industries.",
+    "7.  **Public opinion and societal values:** Reflect on the evolving public perception of animal testing and how societal values influence the debate and policy decisions.",
+    "8.  **Specific research areas and their reliance on animal models:** Differentiate between research areas where animal models are considered more or less essential, acknowledging that the debate may not be monolithic."
+  ],
+  "33": [
+    "1.  **Arguments for Increased Surveillance (National Security & Crime Prevention):** Detail the justifications proponents offer, such as preventing terrorism, thwarting cyberattacks, and aiding in criminal investigations.",
+    "2.  **Arguments Against Increased Surveillance (Privacy & Civil Liberties):** Explain the concerns raised by opponents, focusing on the erosion of individual privacy, freedom of speech, and the potential for misuse of data.",
+    "3.  **Legal and Constitutional Framework:** Discuss relevant laws (e.g., FISA, Patriot Act) and constitutional amendments (e.g., Fourth Amendment) that govern surveillance and the legal challenges or debates surrounding them.",
+    "4.  **Types of Surveillance and Technologies:** Differentiate between various forms of surveillance (e.g., digital, physical, metadata collection) and the technologies employed, highlighting their capabilities and implications.",
+    "5.  **Effectiveness and Proportionality:** Examine evidence regarding the actual effectiveness of increased surveillance in achieving its stated goals, and whether the benefits outweigh the costs and infringements on rights.",
+    "6.  **Potential for Abuse and Misuse:** Address the risks of government overreach, mission creep, and the potential for surveillance data to be used for political targeting, discrimination, or other unauthorized purposes.",
+    "7.  **Transparency and Oversight Mechanisms:** Discuss the importance of and existing or proposed mechanisms for transparency, accountability, and independent oversight of government surveillance programs.",
+    "8.  **Public Opinion and Societal Impact:** Consider the broader societal implications of increased surveillance, including its impact on trust in government, freedom of expression, and the overall democratic fabric."
+  ],
+  "34": [
+    "1.  **Definition and Science of GMOs:** Explain what genetically modified organisms (GMOs) are, the scientific process involved in their creation, and the common types of modifications.",
+    "2.  **Arguments for Labeling:** Discuss the reasons why proponents advocate for GMO labeling, such as consumer right to know, transparency, and potential ethical concerns.",
+    "3.  **Arguments Against Mandatory Labeling:** Present the counterarguments against mandatory labeling, including potential for consumer confusion, increased costs, and the scientific consensus on the safety of approved GMOs.",
+    "4.  **Arguments for Restriction/Banning:** Outline the concerns that lead some to call for restrictions or bans on GMOs, such as potential environmental impacts (e.g., herbicide resistance, impact on non-target organisms), health concerns (though largely unsubstantiated by scientific consensus), and corporate control of the food supply.",
+    "5.  **Arguments Against Restriction/Banning:** Detail the benefits and arguments for the continued use and development of GMOs, including increased crop yields, enhanced nutritional content, reduced pesticide use (in some cases), and adaptation to challenging environmental conditions.",
+    "6.  **Regulatory Frameworks and Scientific Consensus:** Discuss how GMOs are regulated in different regions, the role of scientific bodies in assessing their safety, and the prevailing scientific consensus on the safety of currently available GMOs for consumption.",
+    "7.  **Economic and Social Implications:** Explore the economic impacts of GMOs on farmers, consumers, and the agricultural industry, as well as broader social considerations like food security and access.",
+    "8.  **Ethical Considerations:** Address the ethical debates surrounding GMOs, including concerns about \"playing God,\" biodiversity, and the patenting of life."
+  ],
+  "35": [
+    "1.  **Legal and Regulatory Landscape:** Discuss existing laws (like the ACA in the US) and potential new legislation that would mandate or prohibit such requirements.",
+    "2.  **Economic Impact on Employers:** Analyze the financial burden and potential cost increases for businesses, especially small and medium-sized enterprises.",
+    "3.  **Impact on Part-Time Workers:** Detail the benefits for part-time employees in terms of financial security, health outcomes, and job satisfaction.",
+    "4.  **Labor Market Dynamics:** Explore how such a requirement might affect hiring practices, wage levels, and the overall availability of part-time positions.",
+    "5.  **Equity and Fairness Arguments:** Address the ethical considerations of providing benefits based on employment status and the concept of fair compensation.",
+    "6.  **Administrative Challenges:** Consider the complexities of administering benefits for a potentially fluctuating part-time workforce.",
+    "7.  **Alternative Solutions and Compromises:** Explore other ways to support part-time workers' healthcare needs, such as subsidies, tax credits, or expanded public options.",
+    "8.  **Societal Benefits:** Discuss the broader positive impacts on public health, reduced reliance on emergency services, and economic productivity."
+  ],
+  "36": [
+    "1.  **Definition and Types of GM Foods:** Clearly explain what genetically modified (GM) food is, the technologies involved (e.g., gene insertion, gene editing), and the different categories of GM crops and foods.",
+    "2.  **Potential Benefits of GM Foods:** Discuss the advantages, such as increased crop yields, enhanced nutritional content, resistance to pests and diseases, reduced pesticide use, and adaptation to challenging environments.",
+    "3.  **Potential Risks and Concerns:** Address the scientific and public concerns, including potential environmental impacts (e.g., gene flow, impact on non-target organisms), human health risks (e.g., allergenicity, toxicity), and socioeconomic implications (e.g., farmer dependence, biodiversity).",
+    "4.  **Current Regulatory Frameworks:** Describe how GM foods are currently regulated in different regions (e.g., the US, EU, Canada), focusing on the types of assessments conducted (e.g., safety, environmental impact) and the agencies involved.",
+    "5.  **Arguments for Regulation:** Present the rationale behind regulating GM foods, emphasizing the need for consumer safety, environmental protection, informed choice, and responsible innovation.",
+    "6.  **Arguments Against Strict Regulation (or for Lighter Regulation):** Discuss arguments that suggest current regulations are too burdensome, hinder innovation, or that the risks are overstated and manageable through existing food safety practices.",
+    "7.  **Ethical and Societal Considerations:** Explore the broader ethical debates surrounding GM technology, including issues of naturalness, ownership of genetic material, and equitable access to technology and its benefits.",
+    "8.  **Transparency and Labeling:** Address the importance of clear and informative labeling of GM foods to allow consumers to make informed choices and the role of regulation in ensuring such transparency."
+  ],
+  "37": [
+    "1.  **Environmental Impacts:** Detail the detrimental effects of plastic pollution on ecosystems, wildlife (ingestion, entanglement), and marine life.",
+    "2.  **Human Health Concerns:** Discuss potential risks to human health from microplastics entering the food chain and water supply.",
+    "3.  **Economic Consequences:** Outline the costs associated with cleanup, damage to tourism and fishing industries, and the economic benefits of a circular economy.",
+    "4.  **Current Regulatory Landscape:** Briefly describe existing laws and international agreements related to plastic production, use, and disposal.",
+    "5.  **Proposed Legislative Solutions:** Explore various types of laws that could be implemented, such as bans on single-use plastics, extended producer responsibility, or taxes on plastic production.",
+    "6.  **Effectiveness and Challenges of Legislation:** Analyze the potential effectiveness of such laws in reducing pollution, as well as the challenges in enforcement, unintended consequences, and global cooperation.",
+    "7.  **Alternative Solutions and Complementary Measures:** Discuss non-legislative approaches like technological innovation, public education campaigns, and improved waste management infrastructure.",
+    "8.  **Stakeholder Perspectives:** Consider the viewpoints of different groups, including environmental organizations, industry, consumers, and governments, on the necessity and feasibility of such laws."
+  ],
+  "38": [
+    "1.  **Benefits and Advantages:** Detail the potential improvements in precision, minimally invasive techniques, reduced recovery times, and access to specialized procedures.",
+    "2.  **Risks and Disadvantages:** Discuss potential for system malfunctions, cybersecurity threats, loss of human touch/empathy, and the cost of implementation.",
+    "3.  **Ethical Considerations:** Explore issues of accountability in case of errors, patient consent, potential for bias in AI algorithms, and the impact on the surgeon's role.",
+    "4.  **Current State of Technology and Applications:** Describe existing robotic surgical systems and AI applications in surgery, highlighting their current capabilities and limitations.",
+    "5.  **Future Potential and Development:** Discuss the trajectory of AI and robotics in surgery, including advancements in autonomous capabilities, predictive analytics, and personalized medicine.",
+    "6.  **Regulatory and Safety Frameworks:** Address the need for robust regulations, testing, and validation processes to ensure patient safety and efficacy.",
+    "7.  **Training and Skill Development for Surgeons:** Explain how surgeons will need to adapt their skills and training to work effectively with these technologies.",
+    "8.  **Cost-Effectiveness and Accessibility:** Analyze the economic implications, including initial investment, maintenance costs, and the potential for wider accessibility to advanced surgical care."
+  ],
+  "39": [
+    "1.  **Definition and variations of Basic Income:** Clarify what \"basic income\" means, including different models (e.g., universal, unconditional, guaranteed minimum income) and the potential levels of payment.",
+    "2.  **Potential economic benefits:** Discuss arguments for how basic income could stimulate the economy, reduce poverty and inequality, improve health outcomes, and foster entrepreneurship.",
+    "3.  **Potential economic drawbacks and challenges:** Address concerns about inflation, disincentives to work, the cost of implementation, and potential funding mechanisms.",
+    "4.  **Social and societal impacts:** Explore how basic income might affect social cohesion, individual autonomy, mental health, education, and the nature of work.",
+    "5.  **Implementation challenges and practical considerations:** Detail the logistical hurdles, administrative complexities, and political feasibility of introducing and managing a basic income system.",
+    "6.  **Evidence from pilot programs and studies:** Summarize findings from existing basic income experiments and research, highlighting successes, failures, and lessons learned.",
+    "7.  **Ethical and philosophical arguments:** Examine the moral justifications for or against a basic income, considering concepts of rights, fairness, and social responsibility.",
+    "8.  **Alternative policy proposals:** Compare basic income to other welfare programs and social safety nets, discussing their relative merits and potential for integration or replacement."
+  ],
+  "40": [
+    "1.  **Legal Status and Existing Laws:** Discuss current laws and legal precedents regarding same-sex couple adoption in various jurisdictions, highlighting any variations or historical changes.",
+    "2.  **Child Welfare and Best Interests:** Focus on research and evidence demonstrating the impact of parental sexual orientation on child development, well-being, and overall outcomes, emphasizing the \"best interests of the child\" standard.",
+    "3.  **Psychological and Social Development of Children:** Address how children raised by LGBT parents fare in terms of psychological adjustment, social competence, and identity formation, citing relevant studies and expert opinions.",
+    "4.  **Discrimination and Equality:** Explore the arguments for and against allowing LGBT adoption based on principles of equality, non-discrimination, and human rights.",
+    "5.  **Religious and Cultural Perspectives:** Acknowledge and present the diverse religious and cultural viewpoints that may influence opinions on this issue, without necessarily endorsing them.",
+    "6.  **Experiences of LGBT Parents and Adopted Children:** Include anecdotal evidence or qualitative research that shares the lived experiences of LGBT individuals who have adopted or been adopted by LGBT parents.",
+    "7.  **Challenges and Support Systems:** Discuss potential challenges faced by LGBT adoptive parents and their children, as well as the support systems and resources available to them.",
+    "8.  **International Comparisons:** Briefly touch upon how other countries or international bodies approach LGBT adoption to provide a broader context."
+  ],
+  "41": [
+    "1.  **Economic Impact:** Discuss the effects on pension systems, social security, labor markets (unemployment rates, wage pressures), and overall economic productivity.",
+    "2.  **Individual Well-being and Health:** Address the physical and mental health implications of working longer, the availability of suitable jobs for older workers, and the potential for increased quality of life or burnout.",
+    "3.  **Social Equity and Fairness:** Consider the impact on different demographic groups (e.g., those in physically demanding jobs vs. office jobs), potential for age discrimination, and intergenerational fairness.",
+    "4.  **Labor Force Participation and Skills:** Analyze how an increased retirement age might affect the size and composition of the workforce, the utilization of experienced workers' skills, and the need for retraining or upskilling.",
+    "5.  **Healthcare System Strain:** Examine how longer working lives might influence healthcare utilization and costs, both for individuals and the public system.",
+    "6.  **Government Finances:** Detail the implications for tax revenues (more working years) and government expenditure (potentially lower pension payouts).",
+    "7.  **Societal Attitudes and Culture:** Explore how changing retirement ages might affect perceptions of aging, work-life balance, and the role of older adults in society.",
+    "8.  **Alternative Solutions:** Briefly touch upon other policy options that could address similar concerns, such as flexible retirement, phased retirement, or policies to support longer working lives."
+  ],
+  "42": [
+    "1.  **Current Regulatory Landscape:** A description of existing regulations (or lack thereof) at national and international levels, including relevant bodies and laws.",
+    "2.  **Ethical Considerations:** Discussion of the ethical implications of genetic testing, such as privacy, consent, potential for discrimination, and the impact on individuals and families.",
+    "3.  **Accuracy and Reliability:** Examination of the scientific validity, accuracy, and potential for misinterpretation of genetic test results, and how regulation could ensure quality.",
+    "4.  **Commercialization and Accessibility:** Analysis of the growing direct-to-consumer (DTC) genetic testing market, its accessibility, and the potential need for oversight to protect consumers.",
+    "5.  **Data Security and Privacy:** The importance of safeguarding sensitive genetic information from unauthorized access, breaches, and misuse, and how regulation can enforce this.",
+    "6.  **Potential for Discrimination:** The risks of genetic information being used to discriminate in areas like employment, insurance, or healthcare, and the role of regulation in preventing this.",
+    "7.  **Informed Consent and Counseling:** The necessity of clear, understandable consent processes and access to genetic counseling to help individuals interpret results and make informed decisions.",
+    "8.  **Balancing Innovation and Protection:** The challenge of creating regulations that protect individuals and public health without stifling scientific advancement and innovation in the field of genetics."
+  ],
+  "43": [
+    "1.  **Ethical considerations:** Fairness, integrity of sport, role modeling.",
+    "2.  **Health risks:** Short-term and long-term physical and psychological effects of PEDs.",
+    "3.  **Detection methods:** Accuracy, invasiveness, cost, and evolving nature of testing.",
+    "4.  **Legal and regulatory frameworks:** Governing bodies, sanctions, appeals processes.",
+    "5.  **Impact on competition:** Level playing field, perceived legitimacy of results.",
+    "6.  **Athlete rights and privacy:** Balancing testing with personal freedoms.",
+    "7.  **Economic implications:** Cost of testing programs versus potential revenue from clean sport.",
+    "8.  **Alternative approaches:** Education, rehabilitation, focusing on intrinsic motivation."
+  ],
+  "44": [
+    "1.  **Economic Benefits:** Discuss potential positive economic impacts like increased workforce productivity, reduced long-term healthcare costs through preventative care, and job creation in the healthcare sector.",
+    "2.  **Social Equity and Access:** Address how increased spending can improve access to healthcare for all citizens, reduce health disparities, and promote a more equitable society.",
+    "3.  **Public Health Outcomes:** Detail how greater investment can lead to better public health indicators, such as lower infant mortality rates, increased life expectancy, and better management of chronic diseases and pandemics.",
+    "4.  **Cost-Effectiveness and Efficiency:** Explore arguments for and against the cost-effectiveness of public healthcare systems, considering potential for administrative savings versus the risk of inefficiency or bureaucracy.",
+    "5.  **Funding Mechanisms and Sustainability:** Examine various ways to fund increased public healthcare spending (e.g., taxation, social insurance) and discuss the long-term financial sustainability of such investments.",
+    "6.  **Impact on Private Healthcare Sector:** Analyze how increased public spending might affect the role and viability of private healthcare providers and insurance.",
+    "7.  **International Comparisons:** Reference successful or unsuccessful models of public healthcare spending in other countries to draw lessons and provide context.",
+    "8.  **Ethical Considerations:** Discuss the moral imperative of ensuring healthcare as a right and the ethical justifications for government intervention and investment in public health."
+  ],
+  "45": [
+    "1.  **Economic Benefits:** Discuss job creation, economic growth, and the potential for reduced reliance on volatile fossil fuel markets.",
+    "2.  **Environmental Benefits:** Detail the reduction of greenhouse gas emissions, improved air and water quality, and mitigation of climate change impacts.",
+    "3.  **Energy Security and Independence:** Explain how domestic renewable sources can reduce dependence on foreign energy imports and enhance national security.",
+    "4.  **Cost-Effectiveness and Competitiveness:** Analyze the current and projected costs of renewable energy technologies, their competitiveness with fossil fuels, and the role of subsidies in bridging cost gaps.",
+    "5.  **Technological Advancement and Innovation:** Explore how subsidies can incentivize research, development, and deployment of new and improved renewable energy technologies.",
+    "6.  **Market Distortion and Fairness:** Address concerns about potential market distortions, the impact on existing energy industries, and the fairness of taxpayer-funded subsidies.",
+    "7.  **Long-Term Sustainability and Grid Integration:** Consider the challenges and solutions for integrating intermittent renewable sources into the existing energy grid and ensuring long-term grid stability.",
+    "8.  **Social Equity and Access:** Examine how subsidies can promote equitable access to clean energy, benefit disadvantaged communities, and address energy poverty."
+  ],
+  "46": [
+    "1.  **Consumer Protection:** Addressing issues like problem gambling, addiction support, and ensuring fair play and transparent terms and conditions.",
+    "2.  **Revenue Generation and Taxation:** The potential for governments to collect tax revenue from licensed online gambling operators, which can then be used for public services.",
+    "3.  **Crime Prevention and Money Laundering:** The role of regulation in preventing illegal activities, such as money laundering and funding of criminal enterprises, through online gambling platforms.",
+    "4.  **Market Integrity and Competition:** Ensuring a level playing field for operators, preventing monopolies, and fostering healthy competition within the regulated market.",
+    "5.  **Age Verification and Underage Gambling:** Implementing robust measures to prevent minors from accessing and participating in online gambling.",
+    "6.  **Economic Impact and Job Creation:** The potential for a regulated industry to create jobs and contribute to the economy, as well as the risks of an unregulated market.",
+    "7.  **Ethical Considerations and Social Impact:** Examining the broader societal implications of online gambling, including its potential impact on vulnerable populations and community well-being.",
+    "8.  **Enforcement and Compliance Challenges:** The practical difficulties and costs associated with enforcing regulations, monitoring operators, and ensuring compliance in a globalized digital environment."
+  ],
+  "47": [
+    "1.  Economic impacts (e.g., labor supply, wages, innovation, GDP growth, tax revenue).",
+    "2.  Impacts on the domestic workforce (e.g., job displacement, competition for jobs, skill gaps).",
+    "3.  Social and cultural integration (e.g., diversity, community building, potential social tensions).",
+    "4.  Legal and regulatory frameworks (e.g., visa processes, quotas, enforcement, pathways to citizenship).",
+    "5.  National security considerations (e.g., vetting processes, potential risks).",
+    "6.  Humanitarian and ethical considerations (e.g., asylum, refugee status, global responsibility).",
+    "7.  Impacts on specific industries and sectors (e.g., agriculture, technology, healthcare).",
+    "8.  Long-term demographic and societal trends (e.g., aging population, birth rates)."
+  ],
+  "48": [
+    "1.  **Legal and Ethical Frameworks:** Discuss the historical, legal, and ethical arguments surrounding abortion rights and restrictions, including landmark court cases (e.g., Roe v. Wade, Dobbs v. Jackson) and differing philosophical viewpoints on bodily autonomy, the definition of life, and moral status.",
+    "2.  **Women's Health and Bodily Autonomy:** Explore the impact of abortion restrictions on women's physical and mental health, access to healthcare, and their fundamental right to make decisions about their own bodies and reproductive lives.",
+    "3.  **Socioeconomic Factors and Disparities:** Analyze how abortion restrictions disproportionately affect marginalized communities, including low-income individuals, women of color, and those in rural areas, considering issues of access, cost, and the potential for increased poverty and inequality.",
+    "4.  **Fetal Development and Viability:** Address the scientific and medical perspectives on fetal development, including the concept of viability, and how these are often central to arguments for and against restrictions at different stages of pregnancy.",
+    "5.  **Religious and Moral Beliefs:** Acknowledge the diverse religious and moral beliefs that inform individual and societal views on abortion, recognizing that these deeply held convictions play a significant role in the debate.",
+    "6.  **Potential Consequences of Restrictions:** Examine the potential unintended consequences of restricting abortion access, such as an increase in unsafe abortions, negative impacts on maternal mortality rates, and the strain on social services for unwanted pregnancies.",
+    "7.  **Alternative Solutions and Support Systems:** Discuss alternative approaches to unintended pregnancies, such as comprehensive sex education, access to contraception, adoption services, and support for pregnant individuals and new parents, as potential ways to reduce the need for abortion."
+  ],
+  "49": [
+    "1.  **The nature and extent of celebrity influence:** Discuss how celebrities wield power through media presence, fan engagement, and financial resources.",
+    "2.  **Arguments for increased responsibility:** Explore the ethical obligations arising from their platform, potential for positive impact, and the idea of \"paying it forward.\"",
+    "3.  **Arguments against increased responsibility (or for voluntary action):** Consider the right to privacy, potential for backlash, the idea that their primary role is entertainment, and the risk of inauthenticity.",
+    "4.  **Examples of effective celebrity advocacy:** Highlight instances where celebrities have successfully raised awareness, funds, or driven policy change for social causes.",
+    "5.  **Potential pitfalls and criticisms of celebrity involvement:** Discuss issues like performative activism, appropriation of causes, and the potential for overshadowing the actual work of activists.",
+    "6.  **The role of authenticity and genuine commitment:** Emphasize the importance of celebrities engaging with causes they genuinely care about and understand.",
+    "7.  **The impact on different types of social causes:** Consider how celebrity influence might be more or less effective for various issues (e.g., global health vs. local community initiatives).",
+    "8.  **The balance between personal life and public duty:** Address the complexities of celebrities navigating their private lives while being public figures with influence."
+  ],
+  "50": [
+    "1.  **Current Regulatory Framework:** Detail the existing regulations for GM foods in major regions (e.g., US, EU, Canada), including the agencies responsible and the general process of approval.",
+    "2.  **Potential Risks and Concerns:** Discuss the scientific and public concerns associated with GM foods, such as potential environmental impacts (e.g., gene flow, impact on non-target organisms), human health effects (e.g., allergenicity, toxicity), and socioeconomic implications (e.g., farmer dependence, seed monopolies).",
+    "3.  **Potential Benefits and Applications:** Outline the advantages of GM technology, including increased crop yields, enhanced nutritional content, reduced pesticide use, improved resistance to pests and diseases, and adaptation to challenging environmental conditions.",
+    "4.  **Scientific Consensus and Evidence:** Present the prevailing scientific consensus on the safety of currently approved GM foods, citing relevant studies and expert opinions from reputable scientific bodies.",
+    "5.  **Ethical and Societal Considerations:** Explore the ethical debates surrounding GM technology, including issues of naturalness, consumer choice, labeling, and the equitable distribution of benefits and risks.",
+    "6.  **Economic Impacts:** Analyze the economic consequences of GM crops for farmers, consumers, and the agricultural industry, considering factors like seed costs, market access, and potential trade implications.",
+    "7.  **The Role of Labeling:** Discuss the arguments for and against mandatory labeling of GM foods, considering consumer right-to-know, potential for stigmatization, and practical implementation challenges.",
+    "8.  **Future Directions and Emerging Technologies:** Address the evolving landscape of genetic modification (e.g., gene editing like CRISPR) and how current regulatory frameworks might need to adapt to these new technologies."
+  ],
+  "51": [
+    "1.  **Current Legal Landscape:** Detail existing federal and state laws regarding background checks for gun sales, including who is currently required to conduct them (e.g., licensed dealers) and where loopholes exist (e.g., private sales).",
+    "2.  **Arguments for Universal Background Checks:** Present the primary justifications for expanding background checks to all gun sales, focusing on public safety, reducing gun violence, and preventing firearms from falling into the hands of prohibited individuals.",
+    "3.  **Arguments Against Universal Background Checks:** Outline the main objections to universal background checks, such as concerns about infringing on Second Amendment rights, the potential for a national gun registry, and the practical challenges of enforcement.",
+    "4.  **Effectiveness and Data:** Discuss the available evidence and research on the effectiveness of background checks in preventing gun violence, including studies on their impact and limitations.",
+    "5.  **Implementation Challenges and Solutions:** Explore the practical difficulties in implementing universal background checks (e.g., defining \"private sale,\" enforcement mechanisms) and potential solutions or policy proposals to address these challenges.",
+    "6.  **Impact on Law-Abiding Citizens:** Analyze how universal background checks might affect responsible gun owners and the process of legally acquiring firearms.",
+    "7.  **Constitutional and Legal Considerations:** Address the constitutional arguments, particularly concerning the Second Amendment, and how different interpretations might influence the legality and feasibility of universal background checks.",
+    "8.  **International Comparisons (Optional but helpful):** Briefly touch upon how other countries handle firearm sales and background checks to provide broader context, if relevant to the discussion."
+  ],
+  "52": [
+    "1.  **Efficiency and Innovation:** Arguments for how private management can lead to greater efficiency, cost savings, and technological innovation compared to public sector management.",
+    "2.  **Accountability and Transparency:** Discussion of mechanisms for ensuring private companies are accountable to the public and how transparency can be maintained in their operations.",
+    "3.  **Profit Motive vs. Public Service:** The inherent tension between a private company's profit motive and the public service obligation of utilities, and how this impacts service quality, pricing, and access.",
+    "4.  **Regulation and Oversight:** The crucial role of government regulation and oversight in setting standards, controlling prices, and ensuring equitable service delivery when private entities manage public utilities.",
+    "5.  **Investment and Infrastructure Development:** How private companies might be better positioned to attract investment for infrastructure upgrades and maintenance, and the potential risks associated with this.",
+    "6.  **Equity and Access:** Concerns about whether private management might prioritize profitable areas, potentially leading to reduced service or higher costs for less affluent or remote communities.",
+    "7.  **Risk of Monopoly and Market Power:** The potential for private utility companies to wield significant market power and the challenges of preventing monopolistic practices.",
+    "8.  **Historical Precedents and Case Studies:** Examination of real-world examples of private vs. public management of utilities, highlighting successes and failures to inform the debate."
+  ],
+  "53": [
+    "1.  Environmental impact of plastic bags (pollution, harm to wildlife, microplastics).",
+    "2.  Alternatives to plastic bags and their own environmental considerations (reusable bags, paper bags, biodegradable options).",
+    "3.  Economic implications of a ban (impact on manufacturers, retailers, and consumers).",
+    "4.  Effectiveness of bans in reducing plastic bag usage and pollution in areas where they have been implemented.",
+    "5.  Public health considerations related to plastic bag production and disposal.",
+    "6.  Consumer behavior and the challenges/benefits of transitioning to alternatives.",
+    "7.  Potential for unintended consequences or shifts in other types of waste.",
+    "8.  The role of government regulation, policy design, and enforcement in a ban."
+  ],
+  "54": [
+    "1.  **Potential Benefits of Student Feedback:** Discuss how student evaluations can provide valuable insights into teaching effectiveness, classroom environment, and areas for improvement that teachers might not otherwise recognize.",
+    "2.  **Potential Drawbacks and Biases:** Explore the risks of student grading, such as potential for favoritism, retaliation, grade inflation, or students lacking the experience and perspective to accurately assess pedagogical effectiveness.",
+    "3.  **Purpose and Scope of Evaluation:** Clarify what \"grading\" means in this context \u2013 is it a formal assessment impacting tenure/salary, or a feedback mechanism for improvement? Define the specific criteria students would evaluate.",
+    "4.  **Age and Maturity Appropriateness:** Consider whether the ability to provide meaningful and objective feedback varies significantly with student age and developmental stage.",
+    "5.  **Implementation and Structure:** Outline how such a system could be implemented, including anonymity, training for students on providing constructive feedback, and how the feedback would be used by administrators or the teachers themselves.",
+    "6.  **Teacher Autonomy and Professionalism:** Address the impact on teacher morale, autonomy, and the perception of their professional expertise if they are subject to student judgment.",
+    "7.  **Alternative Feedback Mechanisms:** Suggest or discuss existing or alternative methods for gathering student feedback that might achieve similar goals without the direct \"grading\" aspect, such as anonymous surveys or focus groups.",
+    "8.  **Ethical Considerations and Fairness:** Examine the ethical implications for both students and teachers, ensuring fairness, preventing abuse of the system, and maintaining a positive learning environment."
+  ],
+  "55": [
+    "1.  **Legal Framework:** Discuss existing laws and regulations (e.g., Equal Pay Act in the US, similar legislation elsewhere) that prohibit gender-based pay discrimination for equal work.",
+    "2.  **Economic Rationale for Equal Pay:** Explain the economic arguments for paying men and women equally for similar jobs, including increased consumer spending, reduced poverty, and improved economic growth.",
+    "3.  **Social Justice and Equity:** Address the ethical and moral arguments for equal pay, emphasizing fairness, human rights, and the principle of equal opportunity.",
+    "4.  **Impact of the Gender Pay Gap:** Detail the consequences of the gender pay gap on women's financial security, retirement, and overall well-being, as well as its societal implications.",
+    "5.  **Challenges in Enforcement and Measurement:** Explore the difficulties in identifying and proving pay discrimination, including issues with job comparability, transparency, and employer practices.",
+    "6.  **Causes of the Gender Pay Gap:** Briefly touch upon the various factors contributing to the pay gap beyond direct discrimination, such as occupational segregation, differences in hours worked, career interruptions, and societal biases.",
+    "7.  **Arguments Against Making it Illegal (or nuances):** Acknowledge any counterarguments or complexities, such as the difficulty of defining \"similar jobs\" or the potential for unintended consequences, though the core principle of equal pay for equal work is widely accepted.",
+    "8.  **Potential Solutions and Policy Recommendations:** Suggest measures to further address the gender pay gap, such as pay transparency laws, stronger enforcement mechanisms, and initiatives to promote women's advancement in higher-paying fields."
+  ],
+  "56": [
+    "1.  **Defining Homelessness and its Scope:** Acknowledge the diverse definitions and the global scale of the issue, including different categories of homelessness (chronic, episodic, transitional).",
+    "2.  **Root Causes of Homelessness:** Explore the multifaceted drivers, such as poverty, lack of affordable housing, unemployment, mental health issues, substance abuse, domestic violence, and systemic inequalities.",
+    "3.  **Benefits of an International Effort:** Discuss the advantages of coordinated global action, including resource sharing, knowledge exchange, best practice dissemination, and addressing transnational factors.",
+    "4.  **Challenges and Obstacles to an International Effort:** Identify potential difficulties, such as differing national priorities, sovereignty concerns, funding disparities, cultural variations in approaches, and political will.",
+    "5.  **Potential Strategies and Interventions:** Outline a range of effective approaches that could be implemented internationally, such as housing-first models, prevention programs, mental health and addiction services, job training, and social support systems.",
+    "6.  **Role of International Organizations and NGOs:** Detail how bodies like the UN, WHO, and various non-governmental organizations can facilitate, coordinate, and implement global initiatives.",
+    "7.  **Economic and Social Impacts:** Analyze the costs of inaction (healthcare, criminal justice, lost productivity) versus the benefits of investing in solutions (economic participation, improved public health, social cohesion).",
+    "8.  **Ethical and Human Rights Considerations:** Frame homelessness as a human rights issue and discuss the moral imperative for collective action to ensure dignity and basic needs for all."
+  ],
+  "57": [
+    "1.  **Constitutional Rights:** The Second Amendment of the U.S. Constitution and its interpretation regarding the right to bear arms.",
+    "2.  **Public Safety and Crime Reduction:** The relationship between gun ownership rates and gun violence, crime statistics, and the potential impact of restrictions on reducing these.",
+    "3.  **Self-Defense:** The argument that gun ownership is necessary for individuals to protect themselves and their families from threats.",
+    "4.  **Types of Restrictions:** Specific policy proposals and their potential effects, such as background checks, bans on certain types of firearms (e.g., assault weapons), waiting periods, red flag laws, and licensing requirements.",
+    "5.  **Mental Health Considerations:** The role of mental health in gun violence and how restrictions might address or fail to address this aspect.",
+    "6.  **Enforcement Challenges:** The practical difficulties and effectiveness of enforcing gun control laws.",
+    "7.  **Socioeconomic Impacts:** How gun ownership and restrictions might disproportionately affect different communities or socioeconomic groups.",
+    "8.  **International Comparisons:** Examining gun ownership and violence rates in other countries with different gun control policies."
+  ],
+  "58": [
+    "1.  **Arguments for prohibition:** Focus on how salary history bans aim to address pay inequity, particularly for women and minority groups, by preventing the perpetuation of past discriminatory pay.",
+    "2.  **Arguments against prohibition:** Discuss concerns about employers' ability to assess market value, budget appropriately, and potentially identify candidates with unrealistic salary expectations.",
+    "3.  **Impact on salary negotiation:** Analyze how removing salary history might shift the negotiation power and the factors applicants and employers will focus on (e.g., skills, experience, market rates).",
+    "4.  **Legal landscape and existing bans:** Detail where these bans are already in place (states, cities) and the rationale behind their implementation.",
+    "5.  **Potential unintended consequences:** Explore any negative side effects, such as employers using alternative methods to infer salary or the potential for increased reliance on salary expectations.",
+    "6.  **Alternative methods for determining fair compensation:** Discuss how employers can and should determine appropriate salaries without relying on past pay, such as market research, skills-based assessments, and defined pay bands.",
+    "7.  **Ethical considerations:** Examine the ethical implications of using past salary to determine future pay, including fairness, transparency, and the principle of equal pay for equal work.",
+    "8.  **Effectiveness and evidence:** Present any available data or research on the actual impact of salary history bans on pay equity and hiring practices."
+  ],
+  "59": [
+    "1.  **Arguments for Free Access:** Discuss the benefits of open access, such as accelerating scientific progress, fostering innovation, promoting public understanding of science, and ensuring equitable access for researchers globally.",
+    "2.  **Arguments Against Free Access (or for controlled access/fees):** Explore the costs associated with research publication, peer review, archiving, and dissemination, and how these might be covered if not through subscriptions or article processing charges.",
+    "3.  **Economic Models for Open Access:** Detail various funding models that support free access, including institutional repositories, publisher-led open access (gold, hybrid), author-pays models (APCs), and government mandates.",
+    "4.  **Impact on Researchers and Institutions:** Analyze how free access affects researchers' careers (e.g., citation rates, visibility) and institutions' budgets and research output.",
+    "5.  **Impact on the Public and Society:** Explain how free access benefits taxpayers, patients, educators, policymakers, and the general public by making research findings readily available.",
+    "6.  **Intellectual Property and Copyright Considerations:** Address the legal frameworks and copyright issues surrounding publicly funded research and how they can be navigated to enable free access.",
+    "7.  **Global Equity and Developing Nations:** Discuss how free access can bridge the knowledge gap and empower researchers and institutions in developing countries.",
+    "8.  **Sustainability and Long-Term Archiving:** Examine the challenges and solutions for ensuring the long-term preservation and accessibility of research outputs in an open access environment."
+  ],
+  "60": [
+    "1.  **Economic Feasibility and Funding Mechanisms:** How would free education be funded? What are the potential tax implications, government budget reallocations, or alternative revenue streams required?",
+    "2.  **Impact on Quality and Resources:** Would making education free lead to overcrowding, underfunding of resources (teachers, facilities, materials), or a decline in educational quality?",
+    "3.  **Equity and Access:** How would free education address existing inequalities and improve access for disadvantaged groups, and what are the potential unintended consequences for different socioeconomic strata?",
+    "4.  **Value and Motivation:** Would free education devalue the perceived worth of education, potentially leading to lower student motivation, higher dropout rates, or less commitment to studies?",
+    "5.  **Economic Benefits and Returns on Investment:** What are the potential long-term economic benefits of a more educated populace (increased productivity, innovation, tax revenue) that could offset the initial costs?",
+    "6.  **Scope and Definition of \"Education\":** Does \"free education\" apply to all levels (primary, secondary, tertiary, vocational, lifelong learning), and what specific services would be included (tuition, fees, books, living expenses)?",
+    "7.  **International Comparisons and Case Studies:** What can be learned from countries that have implemented free or heavily subsidized education systems, considering their successes, challenges, and specific contexts?",
+    "8.  **Societal Benefits Beyond Economics:** How might universal free education contribute to civic engagement, social mobility, reduced crime rates, and a more informed citizenry?"
+  ],
+  "61": [
+    "1.  **Economic Impacts:** Potential for tax revenue, job creation, and impact on existing industries (e.g., alcohol, pharmaceuticals).",
+    "2.  **Public Health Considerations:** Effects on mental and physical health, potential for increased addiction rates, and the impact on impaired driving.",
+    "3.  **Criminal Justice Reform:** Reduction in arrests and convictions, impact on prison populations, and reallocation of law enforcement resources.",
+    "4.  **Social Equity and Justice:** Addressing historical disparities in cannabis prohibition, opportunities for marginalized communities, and expungement of past records.",
+    "5.  **Regulatory Frameworks:** How legalization would be regulated (e.g., licensing, product safety, potency limits, advertising restrictions).",
+    "6.  **Medical Applications and Research:** The potential for cannabis as a therapeutic agent and the impact of legalization on further research.",
+    "7.  **International Comparisons and Precedents:** Lessons learned from jurisdictions that have already legalized cannabis.",
+    "8.  **Youth Access and Prevention:** Strategies to prevent underage use and educate the public about risks."
+  ],
+  "62": [
+    "1.  **Evidence of Causation vs. Correlation:** Discuss the scientific debate and research findings regarding whether violent video games directly cause real-world violence, or if there's only a correlation (meaning other factors might be involved).",
+    "2.  **Freedom of Speech and Expression:** Explore the legal and ethical arguments for protecting video games as a form of artistic expression and the implications of banning them on free speech principles.",
+    "3.  **Potential Negative Effects:** Acknowledge and discuss potential negative impacts, such as desensitization to violence, aggression, or addiction, and the evidence supporting these claims.",
+    "4.  **Potential Positive Effects:** Present arguments for potential benefits, such as improved cognitive skills (problem-solving, spatial reasoning), stress relief, social interaction, and the development of strategic thinking.",
+    "5.  **Defining \"Violent\" and Enforcement Challenges:** Address the subjective nature of defining \"violent\" content and the practical difficulties and potential for censorship in enforcing a ban.",
+    "6.  **Parental Responsibility and Age Ratings:** Discuss the role of parents in monitoring children's media consumption and the effectiveness of existing age rating systems (like ESRB) as an alternative to outright bans.",
+    "7.  **Socioeconomic and Cultural Factors:** Consider how other societal issues, such as mental health, poverty, access to education, and cultural norms, might be more significant contributors to violence than video games.",
+    "8.  **Impact on the Gaming Industry and Economy:** Briefly touch upon the economic implications of banning a significant portion of the video game market, including job losses and revenue reduction."
+  ],
+  "63": [
+    "1.  **Arguments for lowering the voting age:** Focus on increased civic engagement, representation of youth interests, and the idea that 16-year-olds are capable of informed decision-making (e.g., paying taxes, working).",
+    "2.  **Arguments against lowering the voting age:** Address concerns about maturity, political knowledge, susceptibility to influence, and potential for lower voter turnout among this age group.",
+    "3.  **International examples and their outcomes:** Discuss countries that have already lowered the voting age to 16 (e.g., Austria, Scotland for some elections) and analyze the observed effects on participation and political discourse.",
+    "4.  **Cognitive and developmental readiness:** Explore research on adolescent brain development and decision-making capabilities relevant to political participation.",
+    "5.  **Impact on education and civic education:** Consider how lowering the voting age might necessitate changes in school curricula to better prepare young people for voting.",
+    "6.  **Potential impact on election results and policy:** Analyze whether lowering the voting age could significantly shift election outcomes or influence policy priorities.",
+    "7.  **Comparison with other age-based rights and responsibilities:** Examine the consistency of a 16-year-old voting age with other legal ages for activities like driving, consenting to medical treatment, or entering contracts.",
+    "8.  **Variations in implementation and context:** Acknowledge that the suitability of lowering the voting age might differ based on a country's specific political system, culture, and educational infrastructure."
+  ],
+  "64": [
+    "1.  **Current Challenges and Criticisms:** Detail the major issues plaguing the current global trading system, such as protectionism, trade disputes, lack of inclusivity, and the rise of non-tariff barriers.",
+    "2.  **Impact on Developing Countries:** Analyze how the existing system affects developing nations, including issues of unequal market access, agricultural subsidies in developed countries, and the ability to industrialize.",
+    "3.  **Role of the WTO:** Discuss the effectiveness and limitations of the World Trade Organization (WTO) in its current form, including its dispute settlement mechanism, rule-making capacity, and ability to adapt to new trade realities.",
+    "4.  **Emerging Trade Issues:** Address the need to incorporate new and evolving trade-related issues like digital trade, environmental sustainability, labor standards, and intellectual property rights into the global framework.",
+    "5.  **Geopolitical Influences and Power Dynamics:** Examine how geopolitical shifts, national security concerns, and the rise of economic blocs are impacting and potentially undermining the multilateral trading system.",
+    "6.  **Potential Benefits of Reform:** Outline the advantages of reforming the system, such as fostering more equitable growth, promoting sustainable development, reducing trade tensions, and enhancing global economic stability.",
+    "7.  **Proposed Reform Mechanisms and Approaches:** Explore various reform proposals, including strengthening the WTO, creating new trade agreements, or developing alternative dispute resolution mechanisms.",
+    "8.  **Risks and Challenges of Reform:** Acknowledge the difficulties and potential downsides of attempting reform, such as achieving consensus among diverse national interests, the risk of fragmentation, and the potential for unintended consequences."
+  ],
+  "65": [
+    "1.  **Nutritional Adequacy:** Discuss whether vegetarian meals can meet all essential nutritional requirements for growing children, including protein, iron, B12, calcium, and vitamin D.",
+    "2.  **Cost Implications:** Analyze the potential financial impact on school budgets, considering the cost of sourcing vegetarian ingredients, potential for specialized meal preparation, and comparison to existing meal costs.",
+    "3.  **Student Demand and Preferences:** Address the current and potential demand for vegetarian options among students, including surveys, existing participation rates, and cultural or ethical considerations driving demand.",
+    "4.  **Logistical Challenges:** Explore the practicalities of implementing mandatory vegetarian meals, such as kitchen infrastructure, staff training, sourcing reliable suppliers, and managing allergies or dietary restrictions within vegetarianism.",
+    "5.  **Ethical and Environmental Arguments:** Present the ethical considerations (animal welfare) and environmental benefits (reduced carbon footprint) that proponents of mandatory vegetarian meals often cite.",
+    "6.  **Health Benefits and Risks:** Detail the potential health advantages of vegetarian diets for children (e.g., lower risk of obesity, heart disease) and any potential health risks if not properly planned.",
+    "7.  **Impact on Food Allergies and Restrictions:** Consider how mandatory vegetarian meals might interact with or exacerbate existing food allergies (e.g., soy, nuts) or other dietary restrictions (e.g., veganism, religious requirements).",
+    "8.  **Comparison to Existing Policies:** Examine how mandatory vegetarian meals would compare to current policies in public schools regarding dietary options, such as the provision of vegetarian *options* versus mandatory provision."
+  ],
+  "66": [
+    "1.  **Definition and core principles of UBI:** What it is, how it differs from existing welfare programs, and its fundamental goals (e.g., poverty reduction, economic security).",
+    "2.  **Potential economic benefits:** Arguments for increased consumer spending, entrepreneurship, improved labor market flexibility, and reduced administrative costs of welfare.",
+    "3.  **Potential economic drawbacks/challenges:** Concerns about inflation, disincentives to work, funding mechanisms, and potential for increased taxes or national debt.",
+    "4.  **Social and societal impacts:** Effects on poverty, inequality, health outcomes, education, crime rates, and social cohesion.",
+    "5.  **Arguments for and against work incentives:** How UBI might affect labor supply, the types of jobs people pursue, and the potential for a \"leisure society\" versus continued productivity.",
+    "6.  **Implementation challenges and design considerations:** Different UBI models (e.g., full vs. partial, unconditional vs. conditional), funding sources, eligibility criteria, and integration with existing social safety nets.",
+    "7.  **Evidence from pilot programs and studies:** What real-world experiments and research suggest about the effectiveness and consequences of UBI.",
+    "8.  **Ethical and philosophical considerations:** Arguments based on rights, dignity, social justice, and the role of the state in providing for its citizens."
+  ],
+  "67": [
+    "1.  **Ethical and Moral Imperatives:** Discuss the moral obligation of wealthier nations, often historically responsible for a larger share of emissions, to support developing nations in transitioning to sustainable energy.",
+    "2.  **Global Climate Change Mitigation:** Explain how funding green energy research in poorer countries is crucial for achieving global climate targets, as these nations are often most vulnerable to climate impacts and have significant potential for renewable energy development.",
+    "3.  **Economic Benefits and Opportunities:** Explore the potential for mutual economic benefits, such as job creation, technological innovation, and new markets for green technologies, for both donor and recipient countries.",
+    "4.  **Addressing Energy Poverty and Development:** Highlight how green energy research and deployment can help poorer countries leapfrog fossil fuel dependence, improve energy access, and drive sustainable development and poverty reduction.",
+    "5.  **Technological Transfer and Capacity Building:** Detail the importance of not just funding but also facilitating the transfer of knowledge, expertise, and appropriate technologies to build local capacity for research, development, and implementation.",
+    "6.  **Geopolitical Stability and Security:** Consider how addressing climate change and energy needs in developing nations can contribute to global stability by reducing resource conflicts and mitigating climate-induced migration.",
+    "7.  **Challenges and Potential Pitfalls:** Acknowledge potential challenges such as ensuring effective allocation of funds, avoiding dependency, addressing corruption, and tailoring solutions to local contexts.",
+    "8.  **Mechanisms for Funding and Collaboration:** Outline various potential funding mechanisms, such as international aid, climate funds, public-private partnerships, and collaborative research initiatives."
+  ],
+  "68": [
+    "1.  **Definition and core principles of the two-state solution:** Clearly explain what it entails (independent Israeli and Palestinian states, borders, security arrangements, Jerusalem, refugees).",
+    "2.  **Arguments in favor of the two-state solution:** Detail the perceived benefits, such as ending the occupation, achieving self-determination for Palestinians, ensuring Israel's security, and potentially fostering regional stability.",
+    "3.  **Major obstacles and challenges to implementation:** Identify the key sticking points, including settlements, borders, security guarantees, the status of Jerusalem, and the right of return for Palestinian refugees.",
+    "4.  **Alternative proposed solutions:** Briefly outline other potential frameworks (e.g., one-state solution, confederation) and their respective pros and cons.",
+    "5.  **International community's role and support:** Discuss the historical and ongoing involvement of international actors, their proposed frameworks, and the challenges of achieving consensus.",
+    "6.  **Impact on regional security and stability:** Analyze how a successful or failed two-state solution could affect the broader Middle East.",
+    "7.  **Perspectives of key stakeholders:** Summarize the general positions and concerns of the Israeli government, Palestinian leadership, and significant segments of their populations.",
+    "8.  **Feasibility and likelihood of success:** Assess the current viability of the two-state solution given the entrenched obstacles and political realities."
+  ],
+  "69": [
+    "1.  **Ethical considerations and bodily autonomy:** Discuss the right of individuals to make decisions about their own bodies, including elective procedures, versus potential societal pressures or harms.",
+    "2.  **Potential health risks and complications:** Detail the medical dangers associated with cosmetic surgery, including infection, anesthesia risks, scarring, and long-term health consequences.",
+    "3.  **Psychological impacts and motivations:** Explore the reasons people seek cosmetic surgery (e.g., body dysmorphia, self-esteem issues, societal beauty standards) and the potential psychological outcomes, both positive and negative.",
+    "4.  **Economic and societal implications:** Consider the financial costs to individuals and healthcare systems, as well as the broader societal impact of promoting or discouraging cosmetic procedures and their influence on beauty ideals.",
+    "5.  **Regulation and safety standards:** Examine the current regulatory landscape for cosmetic surgery, including the qualifications of practitioners, facility standards, and the effectiveness of existing oversight.",
+    "6.  **Distinction between reconstructive and cosmetic surgery:** Clarify the differences and ethical considerations between procedures performed for medical necessity (reconstructive) versus those for aesthetic enhancement (cosmetic).",
+    "7.  **Impact on vulnerable populations:** Address how a ban might disproportionately affect certain groups, such as those with severe disfigurements or those facing discrimination based on appearance.",
+    "8.  **Alternative approaches to body image and self-esteem:** Discuss non-surgical interventions and societal shifts that could address the underlying issues driving demand for cosmetic surgery, such as mental health support and media literacy."
+  ],
+  "70": [
+    "1.  **Legal Standing and Rights:** Explore the legal basis for corporate speech, including First Amendment protections in some jurisdictions and the extent to which these rights apply to political expression.",
+    "2.  **Fiduciary Duty and Shareholder Interests:** Discuss the legal obligations of corporate leadership to act in the best interests of shareholders, and how engaging in political issues might align with or conflict with these duties.",
+    "3.  **Corporate Personhood and Political Participation:** Examine the concept of corporate personhood and its implications for a company's ability to participate in the political sphere, including campaign finance laws.",
+    "4.  **Potential Legal Ramifications and Liabilities:** Identify potential legal risks, such as antitrust concerns, discrimination lawsuits, or regulatory actions, that could arise from taking political stances.",
+    "5.  **Impact on Business Operations and Contracts:** Analyze how political opinions might affect a company's ability to secure contracts, operate in certain markets, or comply with diverse legal frameworks in different regions.",
+    "6.  **Shareholder Activism and Derivative Suits:** Consider the legal avenues available to shareholders who disagree with a company's political stances, including proxy fights and derivative lawsuits.",
+    "7.  **Regulatory Compliance and Disclosure Requirements:** Address any legal requirements for disclosure of political spending or lobbying activities, and how these regulations might influence a company's decision to be \"opinionated.\"",
+    "8.  **International Legal Considerations:** If applicable, touch upon how differing legal systems and regulations in other countries might impact a company's ability or obligation to express political opinions."
+  ],
+  "71": [
+    "1.  **Economic Benefits:** Discuss potential job creation, technological spin-offs, and the stimulation of new industries.",
+    "2.  **Scientific Advancement:** Highlight the pursuit of knowledge, understanding the universe, and the potential for groundbreaking discoveries.",
+    "3.  **National Prestige and Global Leadership:** Explore how space exploration can enhance a nation's standing and influence on the world stage.",
+    "4.  **Resource Acquisition and Future Sustainability:** Consider the long-term potential for asteroid mining, off-world resources, and ensuring humanity's survival.",
+    "5.  **Inspiration and Education:** Examine the role of space exploration in inspiring future generations of scientists, engineers, and innovators.",
+    "6.  **Alternative Funding Models:** Briefly touch upon private sector investment, international collaboration, and other potential revenue streams.",
+    "7.  **Opportunity Cost and Societal Needs:** Address the argument that tax funds could be allocated to pressing terrestrial issues like healthcare, education, or infrastructure.",
+    "8.  **Risk and Return on Investment:** Evaluate the inherent risks associated with space missions and the potential for both significant rewards and failures."
+  ],
+  "72": [
+    "1.  **Environmental Benefits:** Discuss the reduction of greenhouse gas emissions, mitigation of climate change, and improved air and water quality.",
+    "2.  **Economic Opportunities:** Cover job creation in manufacturing, installation, and maintenance, as well as potential for innovation and new industries.",
+    "3.  **Energy Security and Independence:** Explain how renewables reduce reliance on volatile fossil fuel markets and foreign energy sources.",
+    "4.  **Cost-Effectiveness and Long-Term Savings:** Analyze the declining costs of renewable technologies, potential for stable energy prices, and reduced healthcare costs associated with pollution.",
+    "5.  **Technological Advancements and Innovation:** Highlight ongoing research and development, grid modernization, energy storage solutions, and smart grid integration.",
+    "6.  **Challenges and Limitations:** Address intermittency issues, land use requirements, initial infrastructure costs, and the need for grid upgrades.",
+    "7.  **Global Competitiveness and Geopolitical Implications:** Discuss how investing in renewables can position a nation as a leader in a growing global market and influence international relations.",
+    "8.  **Social Equity and Accessibility:** Consider how renewable energy investments can impact different communities, including access to affordable energy and potential for distributed generation."
+  ],
+  "73": [
+    "1.  **Potential Medical Benefits and Therapeutic Applications:** Discuss the wide range of diseases and conditions that stem cell research aims to treat, such as neurodegenerative disorders (Parkinson's, Alzheimer's), diabetes, heart disease, spinal cord injuries, and genetic disorders.",
+    "2.  **Ethical Considerations and Controversies:** Address the ethical debates surrounding stem cell research, particularly concerning the use of embryonic stem cells, the moral status of embryos, and the potential for exploitation.",
+    "3.  **Scientific Advancements and Progress:** Highlight the significant scientific breakthroughs and ongoing research that demonstrate the promise and viability of stem cell therapies.",
+    "4.  **Types of Stem Cells and Their Sources:** Differentiate between various types of stem cells (embryonic, adult, induced pluripotent stem cells - iPSCs) and discuss the ethical and practical implications of their respective sources.",
+    "5.  **Regulatory Frameworks and Oversight:** Explain the existing regulations and ethical guidelines governing stem cell research and therapy, and the importance of robust oversight to ensure safety and efficacy.",
+    "6.  **Economic and Societal Impact:** Consider the potential economic benefits of developing new treatments and industries, as well as the societal implications of increased lifespan and improved quality of life.",
+    "7.  **Risks and Challenges:** Acknowledge the potential risks associated with stem cell therapies, such as tumor formation, immune rejection, and the need for long-term monitoring, as well as the challenges in scaling up research and clinical trials.",
+    "8.  **Alternative Perspectives and Arguments:** Present a balanced view by including arguments against or cautious approaches to stem cell research, such as concerns about unproven therapies, the cost of treatments, and the prioritization of other research areas."
+  ],
+  "74": [
+    "1.  **Moral and Ethical Obligations:** Discuss the ethical arguments for assisting poorer nations, such as shared humanity, historical responsibilities (e.g., colonialism), and the principle of global justice.",
+    "2.  **Economic Benefits for Rich Countries:** Explore how aid and development can create new markets, foster trade relationships, improve global economic stability, and potentially lead to innovation.",
+    "3.  **Addressing Global Challenges:** Explain how poverty in poorer countries can exacerbate global issues like climate change, pandemics, migration crises, and terrorism, and how aid can be a tool for mitigation.",
+    "4.  **Types of Aid and Their Effectiveness:** Differentiate between various forms of aid (e.g., humanitarian, development, trade agreements, debt relief, technology transfer) and discuss their respective impacts and challenges.",
+    "5.  **Challenges and Criticisms of Aid:** Address common criticisms, such as corruption, inefficiency, dependency creation, and the potential for aid to distort local economies or serve the interests of donor countries.",
+    "6.  **Measuring Success and Accountability:** Discuss how the effectiveness of aid can be measured, the importance of transparency, and the need for accountability from both donor and recipient countries.",
+    "7.  **Alternative Approaches to Aid:** Consider non-aid-based solutions like fair trade policies, investment in sustainable development, and empowering local economies and governance.",
+    "8.  **The Role of International Institutions:** Examine the role of organizations like the UN, World Bank, and IMF in coordinating and delivering aid, and their effectiveness or limitations."
+  ],
+  "75": [
+    "1.  **Economic Implications:** Discuss the costs and benefits of proactive climate action, including investment in green technologies, job creation, and potential economic disruption from inaction.",
+    "2.  **Technological Solutions:** Explore the role of innovation and the deployment of renewable energy, carbon capture, energy efficiency, and other climate mitigation technologies.",
+    "3.  **International Cooperation and Diplomacy:** Highlight the necessity of global agreements, shared responsibilities, and collaborative efforts to address a transnational issue like climate change.",
+    "4.  **Equity and Justice:** Address the disproportionate impacts of climate change on vulnerable populations and developing nations, and the ethical considerations of mitigation and adaptation strategies.",
+    "5.  **Policy and Regulatory Frameworks:** Examine the types of policies governments can implement, such as carbon pricing, emissions standards, subsidies for green initiatives, and regulations on polluting industries.",
+    "6.  **Adaptation and Resilience:** Discuss the importance of preparing for and responding to the unavoidable impacts of climate change, including infrastructure upgrades, disaster preparedness, and community resilience building.",
+    "7.  **Public Opinion and Political Will:** Consider the role of public awareness, advocacy, and the political feasibility of implementing ambitious climate policies.",
+    "8.  **Scientific Consensus and Urgency:** Emphasize the overwhelming scientific evidence for human-caused climate change and the critical need for immediate and decisive action."
+  ],
+  "76": [
+    "1.  **Defining \"Professionals\" and \"Same Pay\":** Clarify what constitutes a \"professional\" in different fields and what \"same pay\" truly means (e.g., base salary, endorsements, total compensation, performance bonuses).",
+    "2.  **Market Value and Demand:** Discuss how supply and demand, fan engagement, and revenue generation (ticket sales, media rights, merchandise) significantly influence athlete salaries.",
+    "3.  **Skill Set and Training:** Compare the unique, highly specialized, and physically demanding skill sets and rigorous training regimens of athletes to those in other professions.",
+    "4.  **Career Longevity and Risk:** Address the often short and injury-prone careers of athletes compared to professions with longer, more stable employment trajectories.",
+    "5.  **Economic Impact and Revenue Generation:** Analyze the substantial economic impact athletes and sports leagues have through job creation, tourism, and media consumption.",
+    "6.  **Societal Value and Entertainment:** Consider the intangible value athletes provide through entertainment, inspiration, and cultural influence, and how this differs from other professions.",
+    "7.  **Risk of Injury and Long-Term Health:** Highlight the significant physical risks and potential long-term health consequences athletes face, which may not be as prevalent in other professions.",
+    "8.  **Alternative Compensation Models:** Explore whether a direct \"same pay\" comparison is appropriate or if different compensation structures are more suitable for athletes given their unique circumstances."
+  ],
+  "77": [
+    "1.  **Defining Hate Speech:** What constitutes hate speech, and the challenges in establishing a clear, universally accepted definition.",
+    "2.  **Freedom of Speech vs. Protection from Harm:** The fundamental tension between protecting free expression and safeguarding individuals and groups from the harms of hate speech.",
+    "3.  **Potential Benefits of Stricter Enforcement:** Arguments for how more active enforcement could reduce discrimination, protect vulnerable groups, and foster a more inclusive society.",
+    "4.  **Potential Drawbacks and Risks of Stricter Enforcement:** Concerns about censorship, chilling effects on legitimate discourse, potential for abuse of power, and the difficulty of objective enforcement.",
+    "5.  **Effectiveness of Current Enforcement:** An assessment of how existing laws are currently applied and whether they are proving effective or insufficient.",
+    "6.  **International Comparisons:** How different countries or legal systems approach hate speech laws and enforcement, and what lessons can be learned.",
+    "7.  **Impact on Online Platforms:** The specific challenges and considerations for enforcing hate speech laws in the digital age, including platform responsibility and content moderation.",
+    "8.  **Alternative or Complementary Approaches:** Exploring non-legal or supplementary strategies to combat hate speech, such as education, counter-speech initiatives, and community building."
+  ],
+  "78": [
+    "1.  **Privacy Concerns:** The extent to which surveillance infringes on individuals' right to privacy, including the collection, storage, and potential misuse of personal data.",
+    "2.  **Public Safety and Crime Prevention:** The arguments for how surveillance technology can deter crime, aid in investigations, and enhance overall public safety.",
+    "3.  **Effectiveness and Limitations:** An examination of the actual effectiveness of surveillance in achieving its stated goals, considering potential limitations and unintended consequences.",
+    "4.  **Potential for Abuse and Misuse:** The risks associated with surveillance technology being used for discriminatory purposes, political oppression, or by unauthorized individuals.",
+    "5.  **Transparency and Accountability:** The importance of clear policies, public oversight, and mechanisms for accountability regarding the deployment and use of surveillance technology.",
+    "6.  **Cost and Resource Allocation:** The financial implications of implementing and maintaining surveillance systems, and whether these resources could be better allocated elsewhere.",
+    "7.  **Impact on Civil Liberties and Freedoms:** How widespread surveillance might chill free speech, assembly, and other fundamental rights, creating a climate of fear or self-censorship.",
+    "8.  **Technological Advancements and Future Implications:** The evolving nature of surveillance technology (e.g., AI, facial recognition) and the long-term societal impacts of its increasing sophistication and pervasiveness."
+  ],
+  "79": [
+    "1.  **Definition and Core Principles:** Clearly explain what Universal Basic Income (UBI) is, including its key characteristics (universality, unconditionality, regularity, cash payment).",
+    "2.  **Potential Benefits:** Detail the arguments in favor of UBI, such as poverty reduction, improved health and education outcomes, increased entrepreneurship, reduced administrative costs of welfare programs, and enhanced economic security.",
+    "3.  **Potential Drawbacks and Criticisms:** Outline the arguments against UBI, including concerns about inflation, disincentives to work, high implementation costs, potential for misuse of funds, and the impact on existing social safety nets.",
+    "4.  **Economic Feasibility and Funding Mechanisms:** Discuss how UBI could be funded (e.g., through taxes, carbon dividends, reallocation of existing welfare spending) and the economic implications of different funding models.",
+    "5.  **Impact on Labor Markets and Employment:** Analyze how UBI might affect labor supply, wages, job quality, and the nature of work in the future, considering automation and the gig economy.",
+    "6.  **Social and Psychological Effects:** Explore the potential impacts on individual well-being, social cohesion, mental health, and the sense of purpose and dignity.",
+    "7.  **Implementation Challenges and Policy Design:** Address the practicalities of implementing UBI, including determining the appropriate payment level, eligibility criteria, and integration with existing social programs.",
+    "8.  **Evidence from Pilots and Experiments:** Review the findings and lessons learned from UBI pilot programs and experiments conducted in various locations, discussing their successes, limitations, and generalizability."
+  ],
+  "80": [
+    "1.  **Definition and Function of Super PACs:** Explain what Super PACs are, how they differ from traditional PACs, and their primary role in campaign finance (independent expenditures).",
+    "2.  **Arguments for Abolition (Concerns about Influence):** Detail concerns about the disproportionate influence of wealthy donors and corporations on elections and policy, potential for quid pro quo corruption or the appearance thereof, and the silencing of ordinary citizens' voices.",
+    "3.  **Arguments Against Abolition (Free Speech and Association):** Present the counterarguments based on the First Amendment, emphasizing the right to free speech and association, and how limiting Super PACs could be seen as infringing on these rights.",
+    "4.  **Impact on Political Discourse and Campaigns:** Discuss how Super PACs affect the nature of political campaigns, the types of messages disseminated, and the potential for negative campaigning or misinformation.",
+    "5.  **Regulatory Challenges and Enforcement:** Explore the difficulties in regulating Super PACs, the effectiveness of current disclosure requirements, and the challenges in enforcing campaign finance laws.",
+    "6.  **Alternative Campaign Finance Models:** Briefly touch upon alternative systems or reforms that could be considered if Super PACs were abolished, such as public financing of elections or stricter limits on overall spending.",
+    "7.  **Historical Context and Legal Precedents:** Provide a brief overview of the legal history that led to the rise of Super PACs, particularly referencing key Supreme Court decisions like *Citizens United v. FEC*.",
+    "8.  **Economic and Social Equity Implications:** Analyze how Super PACs might exacerbate economic inequality by giving greater political power to those with more financial resources, and the potential impact on social policies."
+  ],
+  "81": [
+    "1.  **Historical Context and Rationale for Creation:** Explain why the Federal Reserve was established in 1913, addressing the financial panics and instability of the preceding era.",
+    "2.  **Core Functions and Mandates:** Detail the primary responsibilities of the Fed, including monetary policy (interest rates, money supply), bank supervision and regulation, and maintaining financial stability.",
+    "3.  **Arguments for Abolition (Criticisms):** Present the main arguments against the Fed's existence, such as concerns about inflation, government overreach, lack of accountability, potential for manipulation, and its role in economic cycles.",
+    "4.  **Arguments Against Abolition (Defenses):** Outline the key reasons why the Fed is considered essential, focusing on its role in preventing financial crises, managing inflation, promoting employment, and acting as a lender of last resort.",
+    "5.  **Potential Consequences of Abolition:** Explore the likely economic and financial impacts if the Fed were to be abolished, including the potential for increased volatility, difficulty in managing the money supply, and the absence of a central authority for financial stability.",
+    "6.  **Alternative Systems or Reforms:** Discuss proposed alternatives to the current Federal Reserve system, such as a gold standard, a free banking system, or significant reforms to the Fed's structure and powers.",
+    "7.  **Impact on Different Economic Stakeholders:** Analyze how the abolition of the Fed might affect various groups, including consumers, businesses, investors, and the government.",
+    "8.  **International Implications:** Consider how the abolition of the US Federal Reserve would impact the global financial system and the US dollar's role as a reserve currency."
+  ],
+  "82": [
+    "1. Environmental impact of single-use plastics (pollution, harm to wildlife, microplastics).",
+    "2. Economic implications of a ban (costs for businesses, job losses/creation, impact on consumers).",
+    "3. Availability and effectiveness of alternatives (reusable items, biodegradable materials, compostable options).",
+    "4. Public health considerations (potential risks of plastic alternatives, hygiene concerns).",
+    "5. Regulatory challenges and enforcement mechanisms for a ban.",
+    "6. Consumer behavior and societal acceptance of a ban and its alternatives.",
+    "7. Global perspectives and existing bans in other regions/countries.",
+    "8. Potential for innovation and development of new sustainable materials and technologies."
+  ],
+  "83": [
+    "1.  **Economic Impact:** Discuss potential effects on economic growth, investment, job creation, and consumer spending.",
+    "2.  **Revenue Generation:** Analyze how much additional revenue could be generated and how it might be used (e.g., deficit reduction, public services).",
+    "3.  **Fairness and Equity:** Explore arguments related to progressive taxation, income inequality, and the social contract.",
+    "4.  **Incentives and Behavior:** Examine how increased taxes might influence the behavior of wealthy individuals and corporations (e.g., tax avoidance, capital flight, philanthropy).",
+    "5.  **Complexity and Implementation:** Address the practical challenges of designing and implementing higher taxes on the wealthy, including loopholes and administrative costs.",
+    "6.  **International Comparisons:** Briefly touch upon how other developed nations tax their wealthy and the outcomes observed.",
+    "7.  **Specific Tax Mechanisms:** Detail different ways to increase taxes on the wealthy (e.g., higher income tax rates, wealth taxes, inheritance taxes, capital gains taxes).",
+    "8.  **Potential Trade-offs:** Acknowledge that increasing taxes on the wealthy may involve trade-offs with other policy goals or societal values."
+  ],
+  "84": [
+    "1.  **Accuracy and Reliability:** Discuss the current and potential accuracy of AI in diagnosing medical conditions compared to human doctors, including error rates and the need for validation.",
+    "2.  **Efficiency and Speed:** Explore how AI can expedite the diagnostic process, leading to faster patient care and potentially reducing healthcare system bottlenecks.",
+    "3.  **Accessibility and Equity:** Examine AI's potential to improve access to diagnostic services in underserved areas or for populations with limited access to specialists.",
+    "4.  **Ethical Considerations and Bias:** Address concerns about algorithmic bias, data privacy, accountability for errors, and the potential for AI to exacerbate existing healthcare disparities.",
+    "5.  **Role of Human Clinicians:** Define how AI should complement, rather than replace, human doctors, focusing on the doctor's role in interpretation, patient interaction, and complex decision-making.",
+    "6.  **Data Requirements and Quality:** Highlight the critical need for large, diverse, and high-quality datasets for training AI models, and the challenges associated with data acquisition and standardization.",
+    "7.  **Regulatory and Legal Frameworks:** Discuss the current and future need for robust regulations, guidelines, and legal frameworks to govern the development, deployment, and oversight of AI in medical diagnostics.",
+    "8.  **Cost-Effectiveness and Implementation Challenges:** Analyze the economic implications of AI adoption, including development costs, integration into existing workflows, and the potential for cost savings or increased expenditure."
+  ],
+  "85": [
+    "1.  **Legality and Privacy Rights:** Discuss the legal framework surrounding employee monitoring, including privacy laws (e.g., GDPR, CCPA, specific national/state laws) and how they balance employer rights with employee privacy expectations.",
+    "2.  **Employer Justifications and Business Interests:** Outline the legitimate reasons why employers might want to monitor internet activity, such as protecting company data, ensuring productivity, preventing harassment or illegal activities, and maintaining network security.",
+    "3.  **Employee Expectations and Consent:** Address the importance of transparency and whether employees are aware of and have consented to monitoring. This includes the role of clear company policies and employee handbooks.",
+    "4.  **Scope and Proportionality of Monitoring:** Examine the extent to which monitoring is justified. Is it limited to work-related devices and hours, or does it extend to personal devices and off-duty time? The principle of proportionality (monitoring only what is necessary) is crucial.",
+    "5.  **Types of Monitoring and Data Collected:** Differentiate between various monitoring methods (e.g., website visits, email content, keystroke logging, video surveillance) and the types of data collected, considering the intrusiveness of each.",
+    "6.  **Potential for Abuse and Misuse:** Discuss the risks of employers misusing monitored data, such as for discriminatory purposes, excessive surveillance, or creating a climate of distrust and fear.",
+    "7.  **Impact on Employee Morale and Trust:** Analyze how monitoring can affect employee morale, productivity, and the overall employer-employee relationship, potentially leading to decreased job satisfaction and increased turnover.",
+    "8.  **Ethical Considerations and Best Practices:** Explore the ethical implications beyond legal requirements, focusing on principles of fairness, respect, and the creation of a healthy work environment. This includes recommending best practices for implementing monitoring responsibly."
+  ],
+  "86": [
+    "1.  **Constitutional Rights and Interpretations:** Discuss the Second Amendment of the U.S. Constitution (or relevant constitutional provisions in other countries) and the various legal interpretations regarding individual rights to bear arms versus collective rights for militia purposes.",
+    "2.  **Public Safety and Crime Prevention:** Examine the relationship between firearm ownership and rates of violent crime, accidental shootings, suicides, and domestic violence. Consider arguments for and against the idea that more guns lead to more crime or that widespread ownership deters crime.",
+    "3.  **Self-Defense and Personal Security:** Explore the argument that firearms are necessary for citizens to protect themselves and their families from criminals, and the counterarguments regarding the risks associated with armed citizens in volatile situations.",
+    "4.  **Types of Firearms and Their Regulation:** Differentiate between various types of firearms (e.g., handguns, rifles, shotguns, assault weapons) and discuss the arguments for and against regulating specific types, including bans or restrictions on certain models.",
+    "5.  **Background Checks and Licensing:** Detail the mechanisms and effectiveness of background checks for firearm purchasers, as well as proposals for licensing, registration, and waiting periods, and their impact on preventing prohibited individuals from acquiring guns.",
+    "6.  **Mental Health and Firearm Access:** Address the complex issue of mental health and its connection to gun violence, including debates about red flag laws, involuntary commitment, and the role of mental health evaluations in firearm ownership.",
+    "7.  **The Role of Responsible Gun Ownership and Training:** Discuss the importance of safe storage, gun safety education, and responsible handling practices, and how these can mitigate risks associated with firearm ownership.",
+    "8.  **International Comparisons and Different Legal Frameworks:** Briefly touch upon how other countries regulate firearm ownership and the outcomes observed in those jurisdictions, providing context for the debate."
+  ],
+  "87": [
+    "1.  **Definition of Net Neutrality:** Clearly explain what net neutrality is, including the core principles of no blocking, no throttling, and no paid prioritization.",
+    "2.  **Arguments for Regulation (Pro-Net Neutrality):** Detail the benefits of net neutrality, such as promoting innovation, ensuring a level playing field for small businesses and startups, protecting free speech and access to information, and preventing ISPs from acting as gatekeepers.",
+    "3.  **Arguments Against Regulation (Anti-Net Neutrality):** Present the counterarguments, focusing on how regulation might stifle ISP investment in infrastructure, hinder their ability to manage network traffic efficiently, and potentially lead to higher costs for consumers.",
+    "4.  **Potential Impacts on Consumers:** Discuss how regulation or deregulation could affect internet speeds, service quality, pricing, and the variety of online content and services available to end-users.",
+    "5.  **Potential Impacts on Businesses and Innovation:** Analyze how net neutrality rules could influence the competitive landscape for online businesses, the development of new internet services, and the ability of content providers to reach their audiences.",
+    "6.  **Role of Internet Service Providers (ISPs):** Examine the business models and motivations of ISPs, and how they might leverage their control over network infrastructure without net neutrality regulations.",
+    "7.  **Historical Context and Regulatory Evolution:** Briefly touch upon the history of net neutrality debates and past regulatory approaches in different countries or jurisdictions.",
+    "8.  **Alternative Regulatory Frameworks or Solutions:** Explore potential middle-ground approaches or alternative ways to achieve some of the goals of net neutrality without strict, prescriptive regulation."
+  ],
+  "88": [
+    "1.  **Privacy Concerns:** How facial recognition impacts individual privacy, data collection, and potential for surveillance.",
+    "2.  **Accuracy and Bias:** The reliability of the technology, particularly concerning demographic biases (race, gender, age) and the consequences of misidentification.",
+    "3.  **Security Applications:** The benefits and risks of using facial recognition for law enforcement, border control, and national security.",
+    "4.  **Commercial Use:** The implications of its use in retail, marketing, and other private sector applications, including consumer tracking and profiling.",
+    "5.  **Civil Liberties and Freedoms:** The potential for chilling effects on freedom of speech, assembly, and association due to pervasive surveillance.",
+    "6.  **Transparency and Accountability:** The need for clear guidelines on how the technology is developed, deployed, and overseen, and mechanisms for redress.",
+    "7.  **Ethical Considerations:** Broader societal implications, including the erosion of anonymity and the potential for misuse or abuse.",
+    "8.  **Existing and Proposed Regulations:** A review of current legal frameworks and proposed legislative changes in different jurisdictions."
+  ],
+  "89": [
+    "1.  **Economic Impacts:** Discuss job displacement, creation of new roles, wage stagnation/growth, and overall productivity gains or losses.",
+    "2.  **Social and Ethical Considerations:** Explore issues of inequality, the value of human work, potential for mass unemployment, and the psychological impact on individuals.",
+    "3.  **Skills Gap and Retraining:** Address the need for new skills, the challenges of retraining the existing workforce, and the role of education systems.",
+    "4.  **Productivity and Efficiency:** Analyze how robots can improve output, reduce errors, and operate continuously, leading to potential economic benefits.",
+    "5.  **Safety and Dangerous Jobs:** Highlight the potential for robots to take over hazardous, repetitive, or physically demanding tasks, improving human safety.",
+    "6.  **Cost-Effectiveness and Investment:** Examine the initial investment costs of automation versus long-term operational savings and the impact on business competitiveness.",
+    "7.  **Human-Robot Collaboration:** Explore models where robots augment human capabilities rather than fully replacing them, creating hybrid workforces.",
+    "8.  **Regulatory and Policy Implications:** Consider the need for new laws, social safety nets, and government policies to manage the transition and mitigate negative consequences."
+  ],
+  "90": [
+    "1.  **Arguments for mandatory voting:** Focus on increased civic participation, representation of all demographics, and the idea of voting as a civic duty.",
+    "2.  **Arguments against mandatory voting:** Highlight concerns about individual liberty, freedom of choice, and the potential for uninformed or coerced votes.",
+    "3.  **Potential impacts on election outcomes:** Discuss how mandatory voting might shift the electorate and influence the results of elections.",
+    "4.  **Practical implementation challenges:** Address issues like enforcement mechanisms, penalties for non-compliance, and administrative burdens.",
+    "5.  **International comparisons:** Examine countries with mandatory voting systems and their experiences, successes, and drawbacks.",
+    "6.  **Impact on voter engagement and education:** Consider whether mandatory voting would necessitate increased efforts in voter education and outreach.",
+    "7.  **Constitutional and legal considerations:** Explore whether mandatory voting aligns with or conflicts with existing U.S. constitutional principles and legal precedents.",
+    "8.  **Alternative approaches to increasing turnout:** Discuss other policy options that aim to boost voter participation without making it compulsory."
+  ],
+  "91": [
+    "1.  **Human Rights and Equality:** Discuss the argument that denying marriage equality infringes upon fundamental human rights, including the right to equality, non-discrimination, and the right to marry and found a family, as enshrined in international human rights law.",
+    "2.  **Legal and Social Benefits of Marriage:** Detail the tangible legal, social, and economic benefits that marriage confers upon couples and their families, such as inheritance rights, tax benefits, healthcare decisions, and social recognition, and how denying these to same-sex couples creates inequality.",
+    "3.  **Religious and Cultural Perspectives:** Explore the diverse range of religious and cultural viewpoints on same-sex marriage, acknowledging both those that oppose it based on traditional interpretations and those that support it, often citing principles of love, inclusion, and evolving societal understanding.",
+    "4.  **Impact on LGBTQ+ Individuals and Families:** Examine the psychological, social, and emotional well-being of LGBTQ+ individuals and their families when marriage equality is absent or present, including reduced stigma, increased social acceptance, and improved mental health outcomes.",
+    "5.  **International Legal Precedents and Trends:** Review the growing number of countries that have legalized same-sex marriage and the legal reasoning behind these decisions, highlighting the trend towards greater acceptance and the influence of international human rights jurisprudence.",
+    "6.  **Arguments Against Legalization (and Counterarguments):** Present common arguments against same-sex marriage (e.g., traditional definition of marriage, religious objections) and provide well-reasoned counterarguments that address these concerns from a secular, rights-based, or inclusive perspective.",
+    "7.  **Economic and Societal Impact:** Consider the potential economic and societal impacts of legalizing same-sex marriage, such as increased tourism, reduced social welfare costs associated with discrimination, and the promotion of a more inclusive and stable society.",
+    "8.  **The Role of Public Opinion and Advocacy:** Discuss how public opinion shifts and the role of advocacy groups in driving legislative change and fostering greater societal acceptance of same-sex marriage."
+  ],
+  "92": [
+    "1.  **Definition and Science of GMOs:** Briefly explain what genetically modified organisms (GMOs) are, the scientific process involved in their creation, and the general types of modifications made.",
+    "2.  **Arguments for Labeling:** Detail the primary reasons proponents advocate for GMO labeling, such as consumer right to know, transparency, ethical concerns, and potential health or environmental impacts (even if debated).",
+    "3.  **Arguments Against Labeling:** Present the counterarguments against mandatory GMO labeling, including potential for misleading consumers, increased costs for producers and consumers, and the scientific consensus on the safety of approved GMOs.",
+    "4.  **Current Regulatory Landscape:** Discuss existing regulations and labeling practices for GMOs in different regions (e.g., US, EU, Canada), highlighting variations and the rationale behind them.",
+    "5.  **Potential Impacts of Labeling:** Analyze the potential consequences of mandatory labeling on the food industry, agricultural practices, consumer choices, and the market for GMO and non-GMO products.",
+    "6.  **Scientific Consensus on Safety:** Address the scientific consensus regarding the safety of currently approved GMOs for consumption and the environment, citing relevant scientific bodies and research.",
+    "7.  **Ethical and Social Considerations:** Explore the broader ethical and social dimensions of GMOs and their labeling, including issues of corporate control over seeds, biodiversity, and food security.",
+    "8.  **Alternative Labeling Approaches:** Discuss alternative or voluntary labeling schemes that exist or could be implemented, such as \"non-GMO Project Verified,\" and their effectiveness."
+  ],
+  "93": [
+    "1.  **Artistic Expression vs. Societal Impact:** The balance between a filmmaker's right to depict reality or explore themes through violence and the potential negative effects on audiences and society.",
+    "2.  **Context and Intent:** How the depiction of violence serves the narrative, character development, thematic exploration, or social commentary, as opposed to gratuitous or exploitative use.",
+    "3.  **Audience Vulnerability and Age Appropriateness:** Considerations for different age groups, the psychological impact on vulnerable individuals, and the role of ratings and parental guidance.",
+    "4.  **Realism vs. Stylization:** The difference in impact between hyper-realistic depictions of violence and more stylized or abstract representations, and how each can be justified.",
+    "5.  **Potential for Desensitization and Imitation:** The concern that repeated exposure to cinematic violence can desensitize viewers to real-world suffering or inspire copycat behavior.",
+    "6.  **Historical and Cultural Significance:** The role of depicting violence in understanding historical events, social issues, or cultural narratives, even if disturbing.",
+    "7.  **Censorship and Freedom of Speech:** The ethical and legal debates surrounding censorship, the definition of obscenity, and the protection of artistic freedom.",
+    "8.  **The Role of the Viewer:** The responsibility of the audience to interpret and engage critically with violent content, rather than passively consuming it."
+  ],
+  "94": [
+    "1.  **Environmental Benefits:** Detail the positive environmental impacts of eco-friendly businesses (e.g., reduced emissions, waste reduction, resource conservation) and how subsidies can accelerate these.",
+    "2.  **Economic Growth and Job Creation:** Explain how subsidies can stimulate the growth of green industries, leading to new jobs and economic diversification.",
+    "3.  **Market Competitiveness:** Discuss how subsidies can help nascent eco-friendly businesses compete with established, less sustainable alternatives, leveling the playing field.",
+    "4.  **Innovation and R&D:** Explore how financial support can encourage investment in research and development for cleaner technologies and sustainable practices.",
+    "5.  **Cost of Transition:** Address the initial higher costs often associated with adopting eco-friendly practices or technologies and how subsidies can offset these.",
+    "6.  **Potential for Market Distortion/Inefficiency:** Acknowledge the risks of subsidies creating artificial markets, leading to inefficient allocation of resources or dependency.",
+    "7.  **Types of Subsidies and Their Effectiveness:** Discuss different subsidy mechanisms (e.g., tax breaks, grants, low-interest loans) and their potential effectiveness in achieving environmental and economic goals.",
+    "8.  **Long-Term Sustainability and Exit Strategies:** Consider how subsidies can be designed to foster long-term viability for businesses, rather than creating perpetual reliance, and potential exit strategies for support."
+  ],
+  "96": [
+    "1.  **Legal and Constitutional Framework:** Discuss the Establishment Clause of the First Amendment (in the US context) and similar legal principles in other countries, focusing on the separation of church and state and prohibitions against government endorsement of religion.",
+    "2.  **Defining \"Religious Education\":** Clarify the distinction between teaching *about* religion (comparative religion, history of religions, religious literacy) and teaching *of* religion (indoctrination, proselytization, or devotional practices).",
+    "3.  **Educational Goals and Benefits:** Explore the potential academic benefits of teaching about religion, such as fostering critical thinking, cultural understanding, historical context, and promoting tolerance and respect for diverse beliefs.",
+    "4.  **Potential Drawbacks and Concerns:** Address the risks, including the potential for proselytization, the marginalization of minority religions or non-religious students, the difficulty in maintaining neutrality, and the challenge of teacher training and curriculum development.",
+    "5.  **Impact on Student Diversity and Inclusion:** Consider how different approaches to religious education might affect students from various religious backgrounds, including those with no religious affiliation, and the importance of creating an inclusive learning environment.",
+    "6.  **Curriculum Design and Content:** Examine what specific content would be appropriate and how it could be presented in a balanced, objective, and age-appropriate manner, avoiding bias or advocacy.",
+    "7.  **Parental Rights and Community Values:** Discuss the role of parents in their children's religious upbringing and how public schools can navigate differing community expectations and parental desires regarding religious instruction.",
+    "8.  **Alternative Approaches and Models:** Explore existing models or alternative strategies for addressing religious literacy in public schools, such as integrating religious topics into social studies or history classes, or offering elective courses."
+  ],
+  "97": [
+    "1.  **Definition and Core Principles:** Clearly explain what UBI is, including its key characteristics (unconditional, regular, cash payment to all individuals).",
+    "2.  **Potential Benefits and Arguments For:** Detail the proposed advantages, such as poverty reduction, improved health outcomes, increased entrepreneurship, reduced administrative costs of welfare programs, and enhanced individual autonomy.",
+    "3.  **Potential Drawbacks and Arguments Against:** Outline the significant concerns, including high cost and funding challenges, potential disincentives to work, inflationary pressures, and the risk of misuse of funds.",
+    "4.  **Economic Impacts:** Discuss the broader economic consequences, such as effects on labor markets, consumption patterns, inflation, and overall GDP.",
+    "5.  **Social Impacts:** Explore the societal implications, including changes in social inequality, community engagement, education, and mental well-being.",
+    "6.  **Implementation Challenges and Design Considerations:** Address the practical difficulties of rolling out UBI, such as determining the payment level, funding mechanisms, eligibility criteria (if any variations exist), and integration with existing social safety nets.",
+    "7.  **Evidence from Pilots and Experiments:** Summarize findings from real-world UBI trials and pilot programs, highlighting what has been learned about its effects on work, health, and other outcomes.",
+    "8.  **Philosophical and Ethical Considerations:** Examine the underlying moral arguments for and against UBI, touching on concepts of social justice, human dignity, and the role of the state."
+  ],
+  "98": [
+    "1.  **Arguments for increased restrictions:** This would include points like reducing gun violence, mass shootings, accidental deaths, and the availability of firearms to individuals deemed a risk.",
+    "2.  **Arguments against increased restrictions:** This would encompass points related to Second Amendment rights, self-defense, the ineffectiveness of restrictions on law-abiding citizens, and the potential for a black market.",
+    "3.  **Types of proposed restrictions:** Detail specific measures such as universal background checks, bans on certain types of firearms (e.g., assault weapons), red flag laws, waiting periods, and limitations on magazine capacity.",
+    "4.  **Effectiveness of existing and proposed restrictions:** Discuss data, research, and studies that analyze the impact of gun control measures in different jurisdictions or on specific types of gun violence.",
+    "5.  **Constitutional and legal considerations:** Address the interpretation of the Second Amendment, relevant Supreme Court rulings, and the balance between individual rights and public safety.",
+    "6.  **Socioeconomic and cultural factors:** Explore how factors like poverty, mental health access, cultural attitudes towards guns, and community safety initiatives intersect with gun violence and restrictions.",
+    "7.  **International comparisons:** Examine gun laws and gun violence rates in other developed countries to draw potential lessons or highlight differences.",
+    "8.  **Potential unintended consequences:** Consider any negative outcomes that might arise from increased restrictions, such as impacts on legal gun ownership, the burden on law enforcement, or the potential for circumvention."
+  ]
+}
