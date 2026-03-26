@@ -1,6 +1,5 @@
 # CoEvo
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## What This Is
 
@@ -75,3 +74,53 @@ Domains split into two task types with different prompt templates and metrics:
 ## What's Tracked in Git
 
 Metrics JSON files in `results/` are tracked. Large doc snapshots (`*_docs.json`) and generated PDFs are gitignored.
+
+## Key Findings (seed 0, 6 domains, 20 rounds)
+
+### Overall: Goodhart's Law is Domain-Dependent
+
+The co-evolutionary loop successfully improves classifier AUC in all domains, but actual quality degrades in 3 of 6 domains — evidence that optimizing for LLM ranking signals can backfire.
+
+| Domain | AUC Gain | Quality Change | Diversity Change | Ranking Stability (R20) |
+|---|---|---|---|---|
+| Retail | +13% | -1.09% (degraded) | -6.5% (homogenized) | 0.516 |
+| Video_Games | +8% | +1.89% (improved) | +3.3% | 0.624 |
+| Books | +11% | +0.27% (improved) | stable | 0.642 |
+| Web | +1% | +1.80% (improved) | +4.8% | 0.657 |
+| News | +2% | -1.38% (degraded) | +2.8% | 0.684 |
+| Debate | <1% | -0.85% (degraded) | +1.9% | 0.399 |
+
+### Goodhart Signal (Retail, News, Debate)
+
+These domains show quality degradation despite improved ranking performance:
+- **Retail**: Strongest Goodhart effect. Structural features (paragraph_count -0.88, word_count +0.70) dominate. Content becomes formulaic — diversity drops 6.5% (the only domain with diversity loss).
+- **News**: Query similarity coefficient (2.40) is 5x larger than any other domain's top feature. Over-optimization for relevance signals hurts holistic quality.
+- **Debate**: Ranking stability declines from 0.44 → 0.40 (lowest of all domains). Persuasive content inherently resists standardized ranking — the system fails to find reliable signals.
+
+### No Goodhart (Video_Games, Books, Web)
+
+These domains improve quality alongside ranking:
+- Multiple features remain important (no single feature dominates)
+- Feature diversity prevents gaming a single signal
+- Books shows the strongest balanced improvement: AUC +11% with stable diversity
+
+### Temporal Dynamics
+
+- **R0–R5**: Largest changes across all domains (rapid early adaptation)
+- **R5–R10**: Changes slow, patterns stabilize
+- **R10–R20**: Asymptotic behavior; most metrics plateau
+- Retail diversity drops steeply in R0–R5 then plateaus at 0.682
+
+### Feature Specialization
+
+Top discriminative features by domain (Round 20):
+- **Retail**: paragraph_count (-0.88), word_count (+0.70), list_frequency (+0.54) — structural
+- **Video_Games**: word_count (+1.26), citation_density (-0.89), avg_word_length (-0.83) — length-driven
+- **Books**: query_similarity (+0.86), word_count (+0.75) — relevance + structure
+- **Web**: type_token_ratio (-0.79), avg_sentence_length (-0.48) — lexical diversity penalized
+- **News**: query_similarity (+2.40), named_source_mentions (-1.06) — relevance dominates
+- **Debate**: avg_sentence_length (+0.48), readability (-0.46) — syntax complexity valued
+
+### Debate is Anomalous
+
+Lowest ranking stability (0.40), minimal AUC improvement (<1%), yet maintains diversity. Suggests persuasive/argumentative content fundamentally resists LLM-based ranking standardization. Reader disagreement may be inherent to the domain rather than a failure of optimization.
