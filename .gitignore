@@ -36,3 +36,5 @@ aice_*.jsonl
 # claude
 .claude
 CLAUDE.md
+FINDINGS.md
+CASE_STUDIES.md
