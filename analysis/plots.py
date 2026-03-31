@@ -263,13 +263,13 @@ def table1_summary(
                 goodhart_round = i
                 break
 
-        # Content diversity at round 30
+        # Content diversity at round 20
         _, div_means, _ = _get_metric_over_rounds(all_data, domain, "content_diversity")
-        div_30 = div_means[-1] if len(div_means) > 0 else None
+        div_20 = div_means[-1] if len(div_means) > 0 else None
 
-        # Ranking stability at round 30
+        # Ranking stability at round 20
         _, stab_means, _ = _get_metric_over_rounds(all_data, domain, "ranking_stability")
-        stab_30 = stab_means[-1] if len(stab_means) > 0 else None
+        stab_20 = stab_means[-1] if len(stab_means) > 0 else None
 
         # Quality degradation
         quality_metric = "completeness" if domain_type == "qa" else "constraint_satisfaction"
@@ -285,8 +285,8 @@ def table1_summary(
             "domain": domain,
             "goodhart_threshold_round": goodhart_round,
             "quality_degradation": quality_delta,
-            "content_diversity_round30": div_30,
-            "ranking_stability_round30": stab_30,
+            "content_diversity_round20": div_20,
+            "ranking_stability_round20": stab_20,
         })
 
     df = pd.DataFrame(rows)

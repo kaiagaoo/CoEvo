@@ -1,4 +1,4 @@
-domain,goodhart_threshold_round,quality_degradation,content_diversity_round30,ranking_stability_round30
+domain,goodhart_threshold_round,quality_degradation,content_diversity_round20,ranking_stability_round20
 retail,,-0.010882936507936591,0.6896263062953949,0.5129777777777778
 video_games,,0.011258149195224165,0.3654821068048477,0.6023010497078699
 books,,6.909699363610855e-05,0.39303773641586304,0.629321480142214
